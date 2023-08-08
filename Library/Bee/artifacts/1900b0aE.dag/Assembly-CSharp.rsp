@@ -377,6 +377,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Codigos/CheckPoint.cs"
 "Assets/Codigos/Interaccion.cs"
+"Assets/Codigos/Meta.cs"
 "Assets/Codigos/MovimientoPersonaje.cs"
 "Assets/Codigos/SeguirPersonaje.cs"
 "Assets/Codigos/SelectLevel.cs"

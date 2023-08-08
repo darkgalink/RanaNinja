@@ -23,7 +23,8 @@ public class SistemaRecoleccion : MonoBehaviour
         bombillosRecolectados++;
         if (bombillosRecolectados == cantidadBombillos)
             recoleccionCompleta.Invoke();
-        totales.text = cantidadBombillos + "/" + bombillosRecolectados;
+            totales.text = cantidadBombillos + "/" + bombillosRecolectados;
+            Destroy(GameObject.FindWithTag("Morir"));    
     }
     
 }

@@ -77,7 +77,7 @@ public class MovimientoPersonaje : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Morir"))
             Reinicio();
-            
+          
     }
 
     void Reinicio()
