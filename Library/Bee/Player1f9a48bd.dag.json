@@ -375,6 +375,17 @@
       "DebugActionIndex": 18
     },
     {
+      "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets1.resource",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets1.resource"
+      ],
+      "Outputs": [
+        "Ejecutable/Proyecto Plataforma_Data/sharedassets1.resource"
+      ],
+      "DebugActionIndex": 19
+    },
+    {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets2.assets",
       "ActionType": "CopyFiles",
       "Inputs": [
@@ -383,29 +394,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/sharedassets2.assets"
       ],
-      "DebugActionIndex": 19
-    },
-    {
-      "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets2.assets.resS",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/PlayerDataCache/Win64/Data/sharedassets2.assets.resS"
-      ],
-      "Outputs": [
-        "Ejecutable/Proyecto Plataforma_Data/sharedassets2.assets.resS"
-      ],
       "DebugActionIndex": 20
-    },
-    {
-      "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets2.resource",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/PlayerDataCache/Win64/Data/sharedassets2.resource"
-      ],
-      "Outputs": [
-        "Ejecutable/Proyecto Plataforma_Data/sharedassets2.resource"
-      ],
-      "DebugActionIndex": 21
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets3.assets",
@@ -416,7 +405,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/sharedassets3.assets"
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets4.assets",
@@ -426,6 +415,17 @@
       ],
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/sharedassets4.assets"
+      ],
+      "DebugActionIndex": 22
+    },
+    {
+      "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets4.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets4.assets.resS"
+      ],
+      "Outputs": [
+        "Ejecutable/Proyecto Plataforma_Data/sharedassets4.assets.resS"
       ],
       "DebugActionIndex": 23
     },

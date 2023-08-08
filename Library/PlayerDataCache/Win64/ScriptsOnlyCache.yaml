@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CheckPoint
     - Interaccion
+    - Meta
     - MovimientoPersonaje
     - SeguirPersonaje
     - SelectLevel
@@ -13,7 +14,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKEditorManager
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
-    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -76,10 +76,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -263,12 +261,6 @@ ScriptsOnlyBuild:
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
-  - assembly: Assembly-CSharp
-    fullTypeName: SelectLevel
-    methodName: MenuPrincipal
-  - assembly: Assembly-CSharp
-    fullTypeName: SelectLevel
-    methodName: SalidelJuego
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -320,21 +312,6 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: SistemaRecoleccion
-    methodName: EvaluarRecoleccion
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
@@ -347,12 +324,12 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: SistemaRecoleccion
-    methodName: EvaluarRecoleccion
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
@@ -383,6 +360,27 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: SistemaRecoleccion
+    methodName: EvaluarRecoleccion
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: SistemaRecoleccion
+    methodName: EvaluarRecoleccion
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
@@ -398,6 +396,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: SistemaRecoleccion
     methodName: EvaluarRecoleccion
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
@@ -503,12 +504,27 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: SistemaRecoleccion
     methodName: EvaluarRecoleccion
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
@@ -602,6 +618,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: SistemaRecoleccion
     methodName: EvaluarRecoleccion
+  - assembly: Assembly-CSharp
+    fullTypeName: SelectLevel
+    methodName: MenuPrincipal
+  - assembly: Assembly-CSharp
+    fullTypeName: SelectLevel
+    methodName: SalidelJuego
   sceneClasses:
     Assets/Scenes/GameOver.unity:
     - Class: 1
@@ -629,13 +651,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16294}
     - Class: 114
-      Script: {instanceID: 17908}
+      Script: {instanceID: 17910}
     - Class: 114
-      Script: {instanceID: 18234}
+      Script: {instanceID: 18236}
     - Class: 114
-      Script: {instanceID: 20112}
+      Script: {instanceID: 20114}
     - Class: 114
-      Script: {instanceID: 23634}
+      Script: {instanceID: 23636}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -696,93 +718,93 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16486}
     - Class: 114
-      Script: {instanceID: 17204}
+      Script: {instanceID: 17206}
     - Class: 114
-      Script: {instanceID: 17310}
+      Script: {instanceID: 17312}
     - Class: 114
-      Script: {instanceID: 17422}
+      Script: {instanceID: 17424}
     - Class: 114
-      Script: {instanceID: 17450}
+      Script: {instanceID: 17452}
     - Class: 114
-      Script: {instanceID: 17584}
+      Script: {instanceID: 17586}
     - Class: 114
-      Script: {instanceID: 17908}
+      Script: {instanceID: 17910}
     - Class: 114
-      Script: {instanceID: 18234}
+      Script: {instanceID: 18236}
     - Class: 114
-      Script: {instanceID: 18822}
+      Script: {instanceID: 18824}
     - Class: 114
-      Script: {instanceID: 18936}
+      Script: {instanceID: 18938}
     - Class: 114
-      Script: {instanceID: 19076}
+      Script: {instanceID: 19078}
     - Class: 114
-      Script: {instanceID: 19310}
+      Script: {instanceID: 19312}
     - Class: 114
-      Script: {instanceID: 19474}
+      Script: {instanceID: 19476}
     - Class: 114
-      Script: {instanceID: 19942}
+      Script: {instanceID: 19944}
     - Class: 114
-      Script: {instanceID: 20104}
+      Script: {instanceID: 20106}
     - Class: 114
-      Script: {instanceID: 20112}
+      Script: {instanceID: 20114}
     - Class: 114
-      Script: {instanceID: 20326}
+      Script: {instanceID: 20328}
     - Class: 114
-      Script: {instanceID: 20596}
+      Script: {instanceID: 20598}
     - Class: 114
-      Script: {instanceID: 20742}
+      Script: {instanceID: 20744}
     - Class: 114
-      Script: {instanceID: 21696}
+      Script: {instanceID: 21698}
     - Class: 114
-      Script: {instanceID: 21798}
+      Script: {instanceID: 21800}
     - Class: 114
-      Script: {instanceID: 21820}
+      Script: {instanceID: 21822}
     - Class: 114
-      Script: {instanceID: 21908}
+      Script: {instanceID: 21910}
     - Class: 114
-      Script: {instanceID: 21920}
+      Script: {instanceID: 21922}
     - Class: 114
-      Script: {instanceID: 22218}
+      Script: {instanceID: 22220}
     - Class: 114
-      Script: {instanceID: 22222}
+      Script: {instanceID: 22224}
     - Class: 114
-      Script: {instanceID: 22248}
+      Script: {instanceID: 22250}
     - Class: 114
-      Script: {instanceID: 22662}
+      Script: {instanceID: 22664}
     - Class: 114
-      Script: {instanceID: 23094}
+      Script: {instanceID: 23096}
     - Class: 114
-      Script: {instanceID: 23110}
+      Script: {instanceID: 23112}
     - Class: 114
-      Script: {instanceID: 23218}
+      Script: {instanceID: 23220}
     - Class: 114
-      Script: {instanceID: 23226}
+      Script: {instanceID: 23228}
     - Class: 114
-      Script: {instanceID: 23402}
+      Script: {instanceID: 23404}
     - Class: 114
-      Script: {instanceID: 23458}
+      Script: {instanceID: 23460}
     - Class: 114
-      Script: {instanceID: 23532}
+      Script: {instanceID: 23534}
     - Class: 114
-      Script: {instanceID: 23634}
+      Script: {instanceID: 23636}
     - Class: 114
-      Script: {instanceID: 23648}
+      Script: {instanceID: 23650}
     - Class: 114
-      Script: {instanceID: 23802}
+      Script: {instanceID: 23804}
     - Class: 114
-      Script: {instanceID: 24008}
+      Script: {instanceID: 24010}
     - Class: 114
-      Script: {instanceID: 24188}
+      Script: {instanceID: 24190}
     - Class: 114
-      Script: {instanceID: 24296}
+      Script: {instanceID: 24298}
     - Class: 114
-      Script: {instanceID: 24756}
+      Script: {instanceID: 24758}
     - Class: 114
-      Script: {instanceID: 25204}
+      Script: {instanceID: 25206}
     - Class: 114
-      Script: {instanceID: 25758}
+      Script: {instanceID: 25760}
     - Class: 114
-      Script: {instanceID: 26182}
+      Script: {instanceID: 26184}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -847,27 +869,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16602}
     - Class: 114
-      Script: {instanceID: 16832}
+      Script: {instanceID: 16632}
     - Class: 114
-      Script: {instanceID: 17422}
+      Script: {instanceID: 16834}
     - Class: 114
-      Script: {instanceID: 17908}
+      Script: {instanceID: 17424}
     - Class: 114
-      Script: {instanceID: 18234}
+      Script: {instanceID: 17910}
     - Class: 114
-      Script: {instanceID: 18502}
+      Script: {instanceID: 18236}
     - Class: 114
-      Script: {instanceID: 20112}
+      Script: {instanceID: 18504}
     - Class: 114
-      Script: {instanceID: 20880}
+      Script: {instanceID: 20114}
     - Class: 114
-      Script: {instanceID: 22676}
+      Script: {instanceID: 20882}
     - Class: 114
-      Script: {instanceID: 23634}
+      Script: {instanceID: 22678}
     - Class: 114
-      Script: {instanceID: 24408}
+      Script: {instanceID: 23636}
     - Class: 114
-      Script: {instanceID: 26294}
+      Script: {instanceID: 24410}
+    - Class: 114
+      Script: {instanceID: 26296}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -942,29 +966,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16602}
     - Class: 114
-      Script: {instanceID: 16832}
+      Script: {instanceID: 16632}
     - Class: 114
-      Script: {instanceID: 17422}
+      Script: {instanceID: 16834}
     - Class: 114
-      Script: {instanceID: 17908}
+      Script: {instanceID: 17424}
     - Class: 114
-      Script: {instanceID: 18234}
+      Script: {instanceID: 17910}
     - Class: 114
-      Script: {instanceID: 18502}
+      Script: {instanceID: 18236}
     - Class: 114
-      Script: {instanceID: 20112}
+      Script: {instanceID: 18504}
     - Class: 114
-      Script: {instanceID: 20880}
+      Script: {instanceID: 20114}
     - Class: 114
-      Script: {instanceID: 22676}
+      Script: {instanceID: 20882}
     - Class: 114
-      Script: {instanceID: 23634}
+      Script: {instanceID: 22678}
     - Class: 114
-      Script: {instanceID: 24408}
+      Script: {instanceID: 23636}
     - Class: 114
-      Script: {instanceID: 26294}
+      Script: {instanceID: 24410}
     - Class: 114
-      Script: {instanceID: 58388}
+      Script: {instanceID: 26296}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1039,29 +1063,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16602}
     - Class: 114
-      Script: {instanceID: 16832}
+      Script: {instanceID: 16632}
     - Class: 114
-      Script: {instanceID: 17422}
+      Script: {instanceID: 16834}
     - Class: 114
-      Script: {instanceID: 17908}
+      Script: {instanceID: 17424}
     - Class: 114
-      Script: {instanceID: 18234}
+      Script: {instanceID: 17910}
     - Class: 114
-      Script: {instanceID: 18502}
+      Script: {instanceID: 18236}
     - Class: 114
-      Script: {instanceID: 20112}
+      Script: {instanceID: 18504}
     - Class: 114
-      Script: {instanceID: 20880}
+      Script: {instanceID: 20114}
     - Class: 114
-      Script: {instanceID: 22676}
+      Script: {instanceID: 20882}
     - Class: 114
-      Script: {instanceID: 23634}
+      Script: {instanceID: 22678}
     - Class: 114
-      Script: {instanceID: 24408}
+      Script: {instanceID: 23636}
     - Class: 114
-      Script: {instanceID: 26294}
+      Script: {instanceID: 24410}
     - Class: 114
-      Script: {instanceID: 58388}
+      Script: {instanceID: 26296}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1197,6 +1221,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Meta
   - hash:
       serializedVersion: 2
       Hash: 8e13bb05c31d315b9db3d7ff2211c3a9
@@ -2730,9 +2760,9 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/MenuPrincipal.unity
-  - Assets/Scenes/GameOver.unity
   - Assets/Scenes/Nivel1.unity
   - Assets/Scenes/Nivel2.unity
   - Assets/Scenes/Nivel3.unity
+  - Assets/Scenes/GameOver.unity
   playerPath: D:/ProyectosUnity/Proyecto Plataforma/RanaNinja/Ejecutable/Proyecto
     Plataforma.exe
