@@ -1,28 +1,459 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1691536557392485, "dur":2030, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1691536557394525, "dur":157, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1691536557394731, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1691536557394753, "dur":203, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1691536557394989, "dur":1285, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1691536557396274, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1691536557402044, "dur":148, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1691536557402192, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1691536557402201, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1691536557402204, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1691536557402215, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1691536557402218, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1691536557402224, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1691536557402227, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1691536557402233, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1691536557402234, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1691536557402261, "dur":5008, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1691536557396551, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1691536557396552, "dur":5505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1691536557396551, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1691536557396551, "dur":5483, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1691536557396704, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1691536557396705, "dur":5339, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1691536557396668, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1691536557396668, "dur":5383, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1691536557411474, "dur":314, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1691631259336895, "dur":2913, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691631259339819, "dur":622, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1691631259340493, "dur":37, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1691631259340530, "dur":211, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1691631259340780, "dur":855, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691631259341635, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691631259413367, "dur":200, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691631259413567, "dur":35, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691631259413602, "dur":10, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691631259413612, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691631259413631, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691631259413638, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691631259413647, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691631259413651, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691631259413660, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691631259413691, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691631259413730, "dur":14118, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1691631259342590, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259342590, "dur":5453, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348054, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348058, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348115, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348118, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348136, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348240, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348256, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348350, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348365, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348457, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348472, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348568, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348584, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348698, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348714, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348799, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348814, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348829, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348841, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348863, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348876, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348893, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348904, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348917, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348928, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348946, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348957, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348973, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259348984, "dur":597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259349581, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259349599, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259349816, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259349834, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259350168, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259350185, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259350401, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259350414, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259350519, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259350531, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259350545, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259350557, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259350571, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259350583, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259350597, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259350608, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259350620, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259350632, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259350648, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259350662, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259350674, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259350685, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259350992, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259351010, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259351029, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259351042, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259351409, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259351424, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259351643, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259351660, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259351883, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259351901, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259352201, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259352220, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259352537, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259352553, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259352765, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259352781, "dur":1014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259353795, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259353818, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259354030, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259354048, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259354069, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259354082, "dur":5300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691631259359383, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259359421, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1691631259359444, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259359450, "dur":5722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1691631259365185, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1691631259365203, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259365252, "dur":2467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1691631259367734, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":1, "ts":1691631259367752, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259367757, "dur":8732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":1, "ts":1691631259376503, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1691631259376522, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259376527, "dur":9251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1691631259385801, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1691631259385824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259385830, "dur":4481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1691631259390330, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1691631259390358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259390367, "dur":12206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1691631259402590, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1691631259402610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259402668, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1691631259404930, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1691631259404950, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259404955, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1691631259406739, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1691631259406764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259406769, "dur":3793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1691631259410576, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1691631259410596, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691631259410600, "dur":2722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1691631259413339, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1691631259413340, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691631259342733, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691631259342734, "dur":5311, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691631259348055, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1691631259348175, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691631259348195, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1691631259348306, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691631259348323, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1691631259348421, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691631259348436, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1691631259348534, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691631259348548, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691631259348629, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691631259348650, "dur":59613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja.exe" }}
+,{ "pid":12345, "tid":2, "ts":1691631259408264, "dur":681, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691631259408948, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1691631259409302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691631259409309, "dur":3294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1691631259412618, "dur":733, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259342636, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259342637, "dur":5411, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348055, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348186, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348203, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348289, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348307, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348411, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348429, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348519, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348533, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348608, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348622, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348705, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348720, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348739, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348752, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348768, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348780, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348800, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348813, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348834, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348851, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348873, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348886, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348908, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348921, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348937, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348949, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348963, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348976, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259348990, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259349002, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259349018, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259349030, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259349044, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259349056, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259349077, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259349090, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259349106, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259349118, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259349131, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259349142, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259349155, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259349166, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259349179, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259349192, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259349206, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259349220, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259349488, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259349510, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259349763, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259349783, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350089, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350108, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350330, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350347, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350368, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350382, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350400, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350413, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350501, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350518, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350536, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350547, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350563, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350575, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350587, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350598, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350612, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350624, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350638, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350650, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350665, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350676, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350690, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259350702, "dur":911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259351614, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259351632, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259351880, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259351897, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259352210, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259352227, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259352493, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259352511, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259352730, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259352747, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259352944, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259352959, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259353187, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259353207, "dur":644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259353851, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259353868, "dur":1550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259355418, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259355439, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259355688, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259355706, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259355967, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259355982, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259355994, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259356005, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259356020, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259356030, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259356048, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259356063, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259356076, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259356087, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259356101, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259356113, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259356128, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259356139, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259356152, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259356163, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259356408, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259356425, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691631259356441, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259356454, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1691631259356667, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259356685, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":3, "ts":1691631259356707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259359428, "dur":5644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":3, "ts":1691631259365092, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1691631259365114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259365120, "dur":2595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1691631259367733, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1691631259367752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259367757, "dur":8728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1691631259376502, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1691631259376521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259376527, "dur":8070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1691631259384620, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1691631259384642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259384649, "dur":2182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1691631259386847, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1691631259386867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259386873, "dur":14987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1691631259401875, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1691631259402157, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259402177, "dur":2961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1691631259405138, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259405163, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1691631259405184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259405189, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1691631259407355, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1691631259407374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259407381, "dur":3145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1691631259410543, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1691631259410569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691631259410575, "dur":2130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1691631259412718, "dur":634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259342710, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259342710, "dur":5337, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348054, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348211, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348228, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348330, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348348, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348432, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348448, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348554, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348571, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348662, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348697, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348779, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348795, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348814, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348827, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348844, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348860, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348878, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348891, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348908, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348922, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348939, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348951, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348968, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348981, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259348995, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259349007, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259349020, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259349032, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259349047, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259349059, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259349078, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259349090, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259349108, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259349121, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259349137, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259349149, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259349165, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259349178, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259349194, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259349207, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259349488, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259349509, "dur":470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259349979, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259349997, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350227, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350244, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350262, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350275, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350289, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350300, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350314, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350325, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350340, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350353, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350366, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350377, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350392, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350403, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350499, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350516, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350531, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350543, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350562, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350572, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350583, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350595, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350608, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350620, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350635, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350646, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350660, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350673, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350686, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259350698, "dur":702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259351400, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259351419, "dur":799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259352219, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259352236, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259352511, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259352530, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259352751, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259352768, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259352987, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259353005, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259353218, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259353235, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259353445, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259353462, "dur":1036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259354499, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259354517, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259354791, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259354811, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259355253, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259355278, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259355537, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259355554, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259355812, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259355829, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/UDP.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259355850, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259355863, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259355877, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259355889, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259355903, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259355913, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259355933, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259355945, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259355958, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259355970, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259355982, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259355993, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356006, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356017, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356032, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356044, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356059, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356071, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356084, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356094, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356110, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356121, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356133, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356144, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356157, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356168, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356181, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356192, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356204, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356215, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356228, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356240, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356258, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356269, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356562, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356579, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1691631259356609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259357855, "dur":17684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1691631259375558, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1691631259375581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259375587, "dur":4991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1691631259380598, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1691631259380620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259380627, "dur":6254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1691631259386895, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1691631259386912, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259386915, "dur":15760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1691631259402695, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1691631259402726, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259402730, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1691631259404929, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1691631259404950, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259404955, "dur":2631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1691631259407670, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1691631259407695, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259407700, "dur":1847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1691631259409560, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1691631259409579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259409584, "dur":2651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Ejecutable/Windows/RanaNinja_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1691631259412252, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Ejecutable/Windows/RanaNinja_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1691631259412562, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691631259412588, "dur":764, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691631259433231, "dur":1897, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

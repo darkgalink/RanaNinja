@@ -171,7 +171,14 @@
         163,
         164,
         165,
-        166
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -276,6 +283,17 @@
       "DebugActionIndex": 9
     },
     {
+      "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/level5",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/level5"
+      ],
+      "Outputs": [
+        "Ejecutable/Proyecto Plataforma_Data/level5"
+      ],
+      "DebugActionIndex": 10
+    },
+    {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/resources.assets",
       "ActionType": "CopyFiles",
       "Inputs": [
@@ -284,7 +302,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/resources.assets"
       ],
-      "DebugActionIndex": 10
+      "DebugActionIndex": 11
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/resources.assets.resS",
@@ -295,7 +313,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/resources.assets.resS"
       ],
-      "DebugActionIndex": 11
+      "DebugActionIndex": 12
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/RuntimeInitializeOnLoads.json",
@@ -306,7 +324,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/RuntimeInitializeOnLoads.json"
       ],
-      "DebugActionIndex": 12
+      "DebugActionIndex": 13
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/ScriptingAssemblies.json",
@@ -317,7 +335,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/ScriptingAssemblies.json"
       ],
-      "DebugActionIndex": 13
+      "DebugActionIndex": 14
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets0.assets",
@@ -328,7 +346,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/sharedassets0.assets"
       ],
-      "DebugActionIndex": 14
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets0.assets.resS",
@@ -339,7 +357,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/sharedassets0.assets.resS"
       ],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 16
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets0.resource",
@@ -350,7 +368,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/sharedassets0.resource"
       ],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets1.assets",
@@ -361,7 +379,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/sharedassets1.assets"
       ],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 18
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets1.assets.resS",
@@ -372,7 +390,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/sharedassets1.assets.resS"
       ],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets1.resource",
@@ -383,7 +401,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/sharedassets1.resource"
       ],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets2.assets",
@@ -394,7 +412,18 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/sharedassets2.assets"
       ],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 21
+    },
+    {
+      "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets2.resource",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets2.resource"
+      ],
+      "Outputs": [
+        "Ejecutable/Proyecto Plataforma_Data/sharedassets2.resource"
+      ],
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets3.assets",
@@ -405,7 +434,18 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/sharedassets3.assets"
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 23
+    },
+    {
+      "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets3.resource",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets3.resource"
+      ],
+      "Outputs": [
+        "Ejecutable/Proyecto Plataforma_Data/sharedassets3.resource"
+      ],
+      "DebugActionIndex": 24
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets4.assets",
@@ -416,7 +456,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/sharedassets4.assets"
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets4.assets.resS",
@@ -427,7 +467,40 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/sharedassets4.assets.resS"
       ],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 26
+    },
+    {
+      "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets5.assets",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets5.assets"
+      ],
+      "Outputs": [
+        "Ejecutable/Proyecto Plataforma_Data/sharedassets5.assets"
+      ],
+      "DebugActionIndex": 27
+    },
+    {
+      "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets5.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets5.assets.resS"
+      ],
+      "Outputs": [
+        "Ejecutable/Proyecto Plataforma_Data/sharedassets5.assets.resS"
+      ],
+      "DebugActionIndex": 28
+    },
+    {
+      "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/sharedassets5.resource",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets5.resource"
+      ],
+      "Outputs": [
+        "Ejecutable/Proyecto Plataforma_Data/sharedassets5.resource"
+      ],
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Resources/unity_builtin_extra",
@@ -438,7 +511,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Resources/unity_builtin_extra"
       ],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Plugins/x86_64/lib_burst_generated.dll",
@@ -449,7 +522,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Plugins/x86_64/lib_burst_generated.dll"
       ],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Assembly-CSharp.dll",
@@ -460,7 +533,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Assembly-CSharp.dll"
       ],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Mono.Security.dll",
@@ -471,7 +544,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/mscorlib.dll",
@@ -482,7 +555,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/netstandard.dll",
@@ -493,7 +566,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/System.ComponentModel.Composition.dll",
@@ -504,7 +577,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/System.Configuration.dll",
@@ -515,7 +588,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/System.Core.dll",
@@ -526,7 +599,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -537,7 +610,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/System.Data.dll",
@@ -548,7 +621,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/System.dll",
@@ -559,7 +632,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/System.Drawing.dll",
@@ -570,7 +643,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/System.EnterpriseServices.dll",
@@ -581,7 +654,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/System.IO.Compression.dll",
@@ -592,7 +665,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -603,7 +676,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/System.Net.Http.dll",
@@ -614,7 +687,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/System.Numerics.dll",
@@ -625,7 +698,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/System.Runtime.dll",
@@ -636,7 +709,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/System.Runtime.dll"
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/System.Runtime.Serialization.dll",
@@ -647,7 +720,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/System.Security.dll",
@@ -658,7 +731,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/System.ServiceModel.Internals.dll",
@@ -669,7 +742,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/System.Transactions.dll",
@@ -680,7 +753,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/System.Xml.dll",
@@ -691,7 +764,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/System.Xml.Linq.dll",
@@ -702,7 +775,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.2D.Animation.Runtime.dll",
@@ -713,7 +786,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.2D.Animation.Runtime.dll"
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.2D.Common.Runtime.dll",
@@ -724,7 +797,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.2D.Common.Runtime.dll"
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.2D.IK.Runtime.dll",
@@ -735,7 +808,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.2D.IK.Runtime.dll"
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.2D.PixelPerfect.dll",
@@ -746,7 +819,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.2D.PixelPerfect.dll"
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.2D.SpriteShape.Runtime.dll",
@@ -757,7 +830,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.2D.SpriteShape.Runtime.dll"
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.2D.Tilemap.Extras.dll",
@@ -768,7 +841,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.2D.Tilemap.Extras.dll"
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.Burst.dll",
@@ -779,7 +852,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.Burst.dll"
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.Burst.Unsafe.dll",
@@ -790,7 +863,18 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.Burst.Unsafe.dll"
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 62
+    },
+    {
+      "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.InputSystem.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/Data/Managed/Unity.InputSystem.dll"
+      ],
+      "Outputs": [
+        "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.InputSystem.dll"
+      ],
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.InternalAPIEngineBridge.001.dll",
@@ -801,7 +885,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.InternalAPIEngineBridge.001.dll"
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.Mathematics.dll",
@@ -812,7 +896,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.Mathematics.dll"
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
@@ -823,7 +907,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll"
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
@@ -834,7 +918,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll"
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
@@ -845,7 +929,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll"
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
@@ -856,7 +940,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
@@ -867,7 +951,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll"
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
@@ -878,7 +962,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll"
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.TextMeshPro.dll",
@@ -889,7 +973,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.Timeline.dll",
@@ -900,7 +984,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -911,7 +995,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.VisualScripting.Core.dll",
@@ -922,7 +1006,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.VisualScripting.Core.dll"
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -933,7 +1017,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.VisualScripting.Flow.dll"
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/Unity.VisualScripting.State.dll",
@@ -944,7 +1028,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/Unity.VisualScripting.State.dll"
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -955,7 +1039,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.AccessibilityModule.dll"
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.AIModule.dll",
@@ -966,7 +1050,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.AIModule.dll"
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -977,7 +1061,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.AndroidJNIModule.dll"
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.AnimationModule.dll",
@@ -988,7 +1072,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.AnimationModule.dll"
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.ARModule.dll",
@@ -999,7 +1083,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.ARModule.dll"
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -1010,7 +1094,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.AssetBundleModule.dll"
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.AudioModule.dll",
@@ -1021,7 +1105,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.AudioModule.dll"
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.ClothModule.dll",
@@ -1032,7 +1116,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.ClothModule.dll"
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -1043,7 +1127,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.ClusterInputModule.dll"
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -1054,7 +1138,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.ClusterRendererModule.dll"
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.CoreModule.dll",
@@ -1065,7 +1149,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.CoreModule.dll"
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -1076,7 +1160,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.CrashReportingModule.dll"
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.DirectorModule.dll",
@@ -1087,7 +1171,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.DirectorModule.dll"
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.dll",
@@ -1098,7 +1182,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.dll"
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -1109,7 +1193,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.DSPGraphModule.dll"
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -1120,7 +1204,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.GameCenterModule.dll"
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.GIModule.dll",
@@ -1131,7 +1215,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.GIModule.dll"
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.GridModule.dll",
@@ -1142,7 +1226,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.GridModule.dll"
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -1153,7 +1237,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.HotReloadModule.dll"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -1164,7 +1248,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.ImageConversionModule.dll"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -1175,7 +1259,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.IMGUIModule.dll"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -1186,7 +1270,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.InputLegacyModule.dll"
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.InputModule.dll",
@@ -1197,7 +1281,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.InputModule.dll"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -1208,7 +1292,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.JSONSerializeModule.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -1219,7 +1303,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.LocalizationModule.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.NVIDIAModule.dll",
@@ -1230,7 +1314,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.NVIDIAModule.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -1241,7 +1325,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.ParticleSystemModule.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -1252,7 +1336,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -1263,7 +1347,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.Physics2DModule.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -1274,7 +1358,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.PhysicsModule.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.ProfilerModule.dll",
@@ -1285,7 +1369,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.ProfilerModule.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -1296,7 +1380,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -1307,7 +1391,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -1318,7 +1402,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.SharedInternalsModule.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -1329,7 +1413,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.SpriteMaskModule.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -1340,7 +1424,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.SpriteShapeModule.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.StreamingModule.dll",
@@ -1351,7 +1435,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.StreamingModule.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -1362,7 +1446,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.SubstanceModule.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -1373,7 +1457,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.SubsystemsModule.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.TerrainModule.dll",
@@ -1384,7 +1468,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.TerrainModule.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -1395,7 +1479,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -1406,7 +1490,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -1417,7 +1501,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -1428,7 +1512,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.TextRenderingModule.dll"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.TilemapModule.dll",
@@ -1439,7 +1523,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.TilemapModule.dll"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.TLSModule.dll",
@@ -1450,7 +1534,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.TLSModule.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UI.dll",
@@ -1461,7 +1545,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UI.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -1472,7 +1556,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UIElementsModule.dll"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UIElementsNativeModule.dll",
@@ -1483,7 +1567,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UIElementsNativeModule.dll"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UIModule.dll",
@@ -1494,7 +1578,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UIModule.dll"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UmbraModule.dll",
@@ -1505,7 +1589,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UmbraModule.dll"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UNETModule.dll",
@@ -1516,7 +1600,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UNETModule.dll"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
@@ -1527,7 +1611,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -1538,7 +1622,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -1549,7 +1633,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UnityConnectModule.dll"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -1560,7 +1644,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UnityCurlModule.dll"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -1571,7 +1655,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -1582,7 +1666,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -1593,7 +1677,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -1604,7 +1688,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -1615,7 +1699,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -1626,7 +1710,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -1637,7 +1721,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.VehiclesModule.dll"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.VFXModule.dll",
@@ -1648,7 +1732,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.VFXModule.dll"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.VideoModule.dll",
@@ -1659,7 +1743,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.VideoModule.dll"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -1670,7 +1754,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.VRModule.dll",
@@ -1681,7 +1765,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.VRModule.dll"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.WindModule.dll",
@@ -1692,7 +1776,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.WindModule.dll"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.XRModule.dll",
@@ -1703,7 +1787,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Managed/UnityEngine.XRModule.dll"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
@@ -1714,7 +1798,7 @@
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 140
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/app.info",
@@ -1726,9 +1810,9 @@
         "Ejecutable/Proyecto Plataforma_Data/app.info"
       ],
       "ToBuildDependencies": [
-        140
+        147
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma_Data/Resources/unity default resources",
@@ -1739,7 +1823,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "CopyFiles Ejecutable/Proyecto Plataforma.exe",
@@ -1750,7 +1834,7 @@
       "Outputs": [
         "Ejecutable/Proyecto Plataforma.exe"
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "CopyFiles Ejecutable/UnityCrashHandler64.exe",
@@ -1761,7 +1845,7 @@
       "Outputs": [
         "Ejecutable/UnityCrashHandler64.exe"
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "CopyFiles Ejecutable/UnityPlayer.dll",
@@ -1772,7 +1856,7 @@
       "Outputs": [
         "Ejecutable/UnityPlayer.dll"
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "CopyFiles Ejecutable/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -1783,7 +1867,7 @@
       "Outputs": [
         "Ejecutable/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "CopyFiles Ejecutable/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -1794,7 +1878,7 @@
       "Outputs": [
         "Ejecutable/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "CopyFiles Ejecutable/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -1805,7 +1889,7 @@
       "Outputs": [
         "Ejecutable/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "CopyFiles Ejecutable/MonoBleedingEdge/etc/mono/config",
@@ -1816,7 +1900,7 @@
       "Outputs": [
         "Ejecutable/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 149
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "CopyFiles Ejecutable/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -1827,7 +1911,7 @@
       "Outputs": [
         "Ejecutable/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "CopyFiles Ejecutable/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -1838,7 +1922,7 @@
       "Outputs": [
         "Ejecutable/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 151
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "CopyFiles Ejecutable/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -1849,7 +1933,7 @@
       "Outputs": [
         "Ejecutable/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 152
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "CopyFiles Ejecutable/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -1860,7 +1944,7 @@
       "Outputs": [
         "Ejecutable/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 153
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "CopyFiles Ejecutable/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -1871,7 +1955,7 @@
       "Outputs": [
         "Ejecutable/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 154
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "CopyFiles Ejecutable/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -1882,7 +1966,7 @@
       "Outputs": [
         "Ejecutable/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 155
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "CopyFiles Ejecutable/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -1893,7 +1977,7 @@
       "Outputs": [
         "Ejecutable/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 156
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "CopyFiles Ejecutable/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -1904,7 +1988,7 @@
       "Outputs": [
         "Ejecutable/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 157
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "CopyFiles Ejecutable/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -1915,7 +1999,7 @@
       "Outputs": [
         "Ejecutable/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 158
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "CopyFiles Ejecutable/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -1926,7 +2010,7 @@
       "Outputs": [
         "Ejecutable/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 159
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "CopyFiles Ejecutable/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -1937,7 +2021,7 @@
       "Outputs": [
         "Ejecutable/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 160
+      "DebugActionIndex": 167
     },
     {
       "Annotation": "CopyFiles Ejecutable/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -1948,7 +2032,7 @@
       "Outputs": [
         "Ejecutable/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 161
+      "DebugActionIndex": 168
     },
     {
       "Annotation": "CopyFiles Ejecutable/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -1959,7 +2043,7 @@
       "Outputs": [
         "Ejecutable/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 162
+      "DebugActionIndex": 169
     },
     {
       "Annotation": "CopyFiles Ejecutable/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -1970,7 +2054,7 @@
       "Outputs": [
         "Ejecutable/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 163
+      "DebugActionIndex": 170
     },
     {
       "Annotation": "CopyFiles Ejecutable/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -1981,7 +2065,7 @@
       "Outputs": [
         "Ejecutable/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 164
+      "DebugActionIndex": 171
     },
     {
       "Annotation": "CopyFiles Ejecutable/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -1992,7 +2076,7 @@
       "Outputs": [
         "Ejecutable/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 165
+      "DebugActionIndex": 172
     },
     {
       "Annotation": "Player",
@@ -2139,13 +2223,13 @@
         137,
         138,
         139,
+        140,
         141,
         142,
         143,
         144,
         145,
         146,
-        147,
         148,
         149,
         150,
@@ -2163,10 +2247,17 @@
         162,
         163,
         164,
-        165
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 166
+      "DebugActionIndex": 173
     }
   ],
   "FileSignatures": [
@@ -2376,7 +2467,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 166
+          "Player": 173
         }
 ,  "DefaultNodes": [
     0
