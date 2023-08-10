@@ -8,6 +8,7 @@ ScriptsOnlyBuild:
     - SeguirPersonaje
     - SelectLevel
     - SistemaRecoleccion
+    - TimerController
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -83,8 +84,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -979,6 +982,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 26838}
     - Class: 114
       Script: {instanceID: 27318}
+    - Class: 114
+      Script: {instanceID: 31666}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1076,6 +1081,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 26838}
     - Class: 114
       Script: {instanceID: 27318}
+    - Class: 114
+      Script: {instanceID: 31666}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1173,6 +1180,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 26838}
     - Class: 114
       Script: {instanceID: 27318}
+    - Class: 114
+      Script: {instanceID: 31666}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3084,6 +3093,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ab2ae78d4207fbacc45217d5d5244400
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TimerController
   platform: 19
   scenePathNames:
   - Assets/Scenes/MenuPrincipal.unity
