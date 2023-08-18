@@ -154,7 +154,7 @@ RectTransform:
   m_LocalScale: {x: 0.4216217, y: 0.4216217, z: 0.4216217}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1206194862}
+  m_Father: {fileID: 1206194864}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -350,7 +350,7 @@ RectTransform:
   - {fileID: 1691799702}
   - {fileID: 1294242393}
   - {fileID: 1623304512}
-  - {fileID: 1206194862}
+  - {fileID: 1206194864}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -551,6 +551,50 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &853282510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 853282512}
+  - component: {fileID: 853282511}
+  m_Layer: 0
+  m_Name: Fb AD Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &853282511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853282510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f86ba7a0272b743a73a70c8b021f9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &853282512
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853282510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 654.44696, y: 201.63882, z: -1.4621425}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &961600337
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,7 +791,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 961600338}
-  m_Father: {fileID: 1206194862}
+  m_Father: {fileID: 1206194864}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -857,7 +901,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1206194862}
+  - component: {fileID: 1206194864}
   - component: {fileID: 1206194863}
   m_Layer: 0
   m_Name: Botonera
@@ -866,23 +910,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1206194862
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206194861}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 75.73743, y: -196.73119, z: 2.0299704}
-  m_LocalScale: {x: 1.9315895, y: 1.9315895, z: 1.9315895}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 31854852}
-  - {fileID: 1045310473}
-  m_Father: {fileID: 83175527}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1206194863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -895,6 +922,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07a1f21f30bfa6c44a07dfb17b79ddd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!224 &1206194864
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206194861}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2.0299704}
+  m_LocalScale: {x: 1.9315895, y: 1.9315895, z: 1.9315895}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 31854852}
+  - {fileID: 1045310473}
+  m_Father: {fileID: 83175527}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 75.73743, y: 343.2688}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1294242392
 GameObject:
   m_ObjectHideFlags: 0
@@ -1004,10 +1053,10 @@ RectTransform:
   m_Father: {fileID: 83175527}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.3597, y: 19}
-  m_SizeDelta: {x: 875.4036, y: 259.4691}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -2.3596802, y: 19}
+  m_SizeDelta: {x: -1044.5964, y: -820.5309}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1623304513
 MonoBehaviour:
