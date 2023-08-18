@@ -1,0 +1,2470 @@
+bitter.jnibridge.JNIBridge -> bitter.jnibridge.JNIBridge:
+    void <init>() -> <init>
+    java.lang.Object invoke(long,java.lang.Class,java.lang.reflect.Method,java.lang.Object[]) -> invoke
+    java.lang.Object newInterfaceProxy(long,java.lang.Class[]) -> newInterfaceProxy
+    void disableInterfaceProxy(java.lang.Object) -> disableInterfaceProxy
+bitter.jnibridge.JNIBridge$a -> bitter.jnibridge.JNIBridge$a:
+    java.lang.Object a -> a
+    long b -> b
+    java.lang.reflect.Constructor c -> c
+    void <init>(long) -> <init>
+    java.lang.Object a(java.lang.Object,java.lang.reflect.Method,java.lang.Object[]) -> a
+    java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[]) -> invoke
+    void a() -> a
+com.android.billingclient.api.AccountIdentifiers -> com.android.billingclient.api.AccountIdentifiers:
+    java.lang.String zza -> zza
+    java.lang.String zzb -> zzb
+    java.lang.String getObfuscatedAccountId() -> getObfuscatedAccountId
+    java.lang.String getObfuscatedProfileId() -> getObfuscatedProfileId
+    void <init>(java.lang.String,java.lang.String) -> <init>
+com.android.billingclient.api.AcknowledgePurchaseParams -> com.android.billingclient.api.AcknowledgePurchaseParams:
+    java.lang.String zza -> zza
+    com.android.billingclient.api.AcknowledgePurchaseParams$Builder newBuilder() -> newBuilder
+    java.lang.String getPurchaseToken() -> getPurchaseToken
+    void <init>() -> <init>
+    void zza(com.android.billingclient.api.AcknowledgePurchaseParams,java.lang.String) -> zza
+    void <init>(com.android.billingclient.api.zzb) -> <init>
+com.android.billingclient.api.AcknowledgePurchaseParams$Builder -> com.android.billingclient.api.AcknowledgePurchaseParams$Builder:
+    java.lang.String zza -> zza
+    com.android.billingclient.api.AcknowledgePurchaseParams$Builder setPurchaseToken(java.lang.String) -> setPurchaseToken
+    com.android.billingclient.api.AcknowledgePurchaseParams build() -> build
+    void <init>() -> <init>
+    void <init>(com.android.billingclient.api.zza) -> <init>
+com.android.billingclient.api.AcknowledgePurchaseResponseListener -> com.android.billingclient.api.AcknowledgePurchaseResponseListener:
+    void onAcknowledgePurchaseResponse(com.android.billingclient.api.BillingResult) -> onAcknowledgePurchaseResponse
+com.android.billingclient.api.BillingClient -> com.android.billingclient.api.BillingClient:
+    int getConnectionState() -> getConnectionState
+    com.android.billingclient.api.BillingClient$Builder newBuilder(android.content.Context) -> newBuilder
+    com.android.billingclient.api.BillingResult isFeatureSupported(java.lang.String) -> isFeatureSupported
+    com.android.billingclient.api.BillingResult launchBillingFlow(android.app.Activity,com.android.billingclient.api.BillingFlowParams) -> launchBillingFlow
+    com.android.billingclient.api.BillingResult showInAppMessages(android.app.Activity,com.android.billingclient.api.InAppMessageParams,com.android.billingclient.api.InAppMessageResponseListener) -> showInAppMessages
+    void <init>() -> <init>
+    void acknowledgePurchase(com.android.billingclient.api.AcknowledgePurchaseParams,com.android.billingclient.api.AcknowledgePurchaseResponseListener) -> acknowledgePurchase
+    void consumeAsync(com.android.billingclient.api.ConsumeParams,com.android.billingclient.api.ConsumeResponseListener) -> consumeAsync
+    void endConnection() -> endConnection
+    void launchPriceChangeConfirmationFlow(android.app.Activity,com.android.billingclient.api.PriceChangeFlowParams,com.android.billingclient.api.PriceChangeConfirmationListener) -> launchPriceChangeConfirmationFlow
+    void queryProductDetailsAsync(com.android.billingclient.api.QueryProductDetailsParams,com.android.billingclient.api.ProductDetailsResponseListener) -> queryProductDetailsAsync
+    void queryPurchaseHistoryAsync(com.android.billingclient.api.QueryPurchaseHistoryParams,com.android.billingclient.api.PurchaseHistoryResponseListener) -> queryPurchaseHistoryAsync
+    void queryPurchaseHistoryAsync(java.lang.String,com.android.billingclient.api.PurchaseHistoryResponseListener) -> queryPurchaseHistoryAsync
+    void queryPurchasesAsync(com.android.billingclient.api.QueryPurchasesParams,com.android.billingclient.api.PurchasesResponseListener) -> queryPurchasesAsync
+    void queryPurchasesAsync(java.lang.String,com.android.billingclient.api.PurchasesResponseListener) -> queryPurchasesAsync
+    void querySkuDetailsAsync(com.android.billingclient.api.SkuDetailsParams,com.android.billingclient.api.SkuDetailsResponseListener) -> querySkuDetailsAsync
+    void startConnection(com.android.billingclient.api.BillingClientStateListener) -> startConnection
+    boolean isReady() -> isReady
+com.android.billingclient.api.BillingClient$BillingResponseCode -> com.android.billingclient.api.BillingClient$BillingResponseCode:
+    int SERVICE_TIMEOUT -> SERVICE_TIMEOUT
+    int FEATURE_NOT_SUPPORTED -> FEATURE_NOT_SUPPORTED
+    int SERVICE_DISCONNECTED -> SERVICE_DISCONNECTED
+    int OK -> OK
+    int USER_CANCELED -> USER_CANCELED
+    int SERVICE_UNAVAILABLE -> SERVICE_UNAVAILABLE
+    int BILLING_UNAVAILABLE -> BILLING_UNAVAILABLE
+    int ITEM_UNAVAILABLE -> ITEM_UNAVAILABLE
+    int DEVELOPER_ERROR -> DEVELOPER_ERROR
+    int ERROR -> ERROR
+    int ITEM_ALREADY_OWNED -> ITEM_ALREADY_OWNED
+    int ITEM_NOT_OWNED -> ITEM_NOT_OWNED
+com.android.billingclient.api.BillingClient$Builder -> com.android.billingclient.api.BillingClient$Builder:
+    java.lang.String zza -> zza
+    boolean zzb -> zzb
+    android.content.Context zzc -> zzc
+    com.android.billingclient.api.PurchasesUpdatedListener zzd -> zzd
+    com.android.billingclient.api.zzbf zze -> zze
+    com.android.billingclient.api.zzc zzf -> zzf
+    com.android.billingclient.api.BillingClient$Builder enablePendingPurchases() -> enablePendingPurchases
+    com.android.billingclient.api.BillingClient$Builder setListener(com.android.billingclient.api.PurchasesUpdatedListener) -> setListener
+    com.android.billingclient.api.BillingClient build() -> build
+    void <init>(android.content.Context,com.android.billingclient.api.zzq) -> <init>
+com.android.billingclient.api.BillingClient$ConnectionState -> com.android.billingclient.api.BillingClient$ConnectionState:
+    int DISCONNECTED -> DISCONNECTED
+    int CONNECTING -> CONNECTING
+    int CONNECTED -> CONNECTED
+    int CLOSED -> CLOSED
+com.android.billingclient.api.BillingClient$FeatureType -> com.android.billingclient.api.BillingClient$FeatureType:
+    java.lang.String SUBSCRIPTIONS -> SUBSCRIPTIONS
+    java.lang.String SUBSCRIPTIONS_UPDATE -> SUBSCRIPTIONS_UPDATE
+    java.lang.String PRICE_CHANGE_CONFIRMATION -> PRICE_CHANGE_CONFIRMATION
+    java.lang.String IN_APP_MESSAGING -> IN_APP_MESSAGING
+    java.lang.String PRODUCT_DETAILS -> PRODUCT_DETAILS
+com.android.billingclient.api.BillingClient$ProductType -> com.android.billingclient.api.BillingClient$ProductType:
+    java.lang.String INAPP -> INAPP
+    java.lang.String SUBS -> SUBS
+com.android.billingclient.api.BillingClient$SkuType -> com.android.billingclient.api.BillingClient$SkuType:
+    java.lang.String INAPP -> INAPP
+    java.lang.String SUBS -> SUBS
+com.android.billingclient.api.BillingClientImpl -> com.android.billingclient.api.BillingClientImpl:
+    int zza -> zza
+    java.lang.String zzb -> zzb
+    android.os.Handler zzc -> zzc
+    com.android.billingclient.api.zzp zzd -> zzd
+    android.content.Context zze -> zze
+    com.google.android.gms.internal.play_billing.zze zzf -> zzf
+    com.android.billingclient.api.zzaq zzg -> zzg
+    boolean zzh -> zzh
+    boolean zzi -> zzi
+    int zzj -> zzj
+    boolean zzk -> zzk
+    boolean zzl -> zzl
+    boolean zzm -> zzm
+    boolean zzn -> zzn
+    boolean zzo -> zzo
+    boolean zzp -> zzp
+    boolean zzq -> zzq
+    boolean zzr -> zzr
+    boolean zzs -> zzs
+    boolean zzt -> zzt
+    boolean zzu -> zzu
+    java.util.concurrent.ExecutorService zzv -> zzv
+    int getConnectionState() -> getConnectionState
+    int launchBillingFlowCpp(android.app.Activity,com.android.billingclient.api.BillingFlowParams) -> launchBillingFlowCpp
+    com.android.billingclient.api.BillingResult isFeatureSupported(java.lang.String) -> isFeatureSupported
+    com.android.billingclient.api.BillingResult launchBillingFlow(android.app.Activity,com.android.billingclient.api.BillingFlowParams) -> launchBillingFlow
+    com.android.billingclient.api.BillingResult showInAppMessages(android.app.Activity,com.android.billingclient.api.InAppMessageParams,com.android.billingclient.api.InAppMessageResponseListener) -> showInAppMessages
+    void <init>(java.lang.String) -> <init>
+    void <init>(android.app.Activity,boolean,java.lang.String) -> <init>
+    void acknowledgePurchase(com.android.billingclient.api.AcknowledgePurchaseParams,com.android.billingclient.api.AcknowledgePurchaseResponseListener) -> acknowledgePurchase
+    void consumeAsync(com.android.billingclient.api.ConsumeParams,com.android.billingclient.api.ConsumeResponseListener) -> consumeAsync
+    void endConnection() -> endConnection
+    void launchPriceChangeConfirmationFlow(android.app.Activity,com.android.billingclient.api.PriceChangeFlowParams,long) -> launchPriceChangeConfirmationFlow
+    void launchPriceChangeConfirmationFlow(android.app.Activity,com.android.billingclient.api.PriceChangeFlowParams,com.android.billingclient.api.PriceChangeConfirmationListener) -> launchPriceChangeConfirmationFlow
+    void queryProductDetailsAsync(com.android.billingclient.api.QueryProductDetailsParams,com.android.billingclient.api.ProductDetailsResponseListener) -> queryProductDetailsAsync
+    void queryPurchaseHistoryAsync(com.android.billingclient.api.QueryPurchaseHistoryParams,com.android.billingclient.api.PurchaseHistoryResponseListener) -> queryPurchaseHistoryAsync
+    void queryPurchaseHistoryAsync(java.lang.String,com.android.billingclient.api.PurchaseHistoryResponseListener) -> queryPurchaseHistoryAsync
+    void queryPurchasesAsync(com.android.billingclient.api.QueryPurchasesParams,com.android.billingclient.api.PurchasesResponseListener) -> queryPurchasesAsync
+    void queryPurchasesAsync(java.lang.String,com.android.billingclient.api.PurchasesResponseListener) -> queryPurchasesAsync
+    void querySkuDetailsAsync(com.android.billingclient.api.SkuDetailsParams,com.android.billingclient.api.SkuDetailsResponseListener) -> querySkuDetailsAsync
+    void startConnection(long) -> startConnection
+    void startConnection(com.android.billingclient.api.BillingClientStateListener) -> startConnection
+    boolean isReady() -> isReady
+    int zza(com.android.billingclient.api.BillingClientImpl) -> zza
+    android.content.Context zzb(com.android.billingclient.api.BillingClientImpl) -> zzb
+    android.os.Bundle zzc(int,java.lang.String,java.lang.String,com.android.billingclient.api.BillingFlowParams,android.os.Bundle) -> zzc
+    android.os.Bundle zzd(java.lang.String,java.lang.String) -> zzd
+    android.os.Bundle zze(java.lang.String,android.os.Bundle) -> zze
+    android.os.Handler zzf(com.android.billingclient.api.BillingClientImpl) -> zzf
+    android.os.Handler zzF() -> zzF
+    com.android.billingclient.api.zzat zzg(com.android.billingclient.api.BillingClientImpl,java.lang.String) -> zzg
+    com.android.billingclient.api.BillingResult zzh(com.android.billingclient.api.BillingClientImpl) -> zzh
+    com.android.billingclient.api.BillingResult zzG(com.android.billingclient.api.BillingResult) -> zzG
+    com.android.billingclient.api.BillingResult zzH() -> zzH
+    com.android.billingclient.api.zzbj zzi(com.android.billingclient.api.BillingClientImpl,java.lang.String) -> zzi
+    com.google.android.gms.internal.play_billing.zze zzj(com.android.billingclient.api.BillingClientImpl) -> zzj
+    java.lang.Object zzk(com.android.billingclient.api.AcknowledgePurchaseParams,com.android.billingclient.api.AcknowledgePurchaseResponseListener) -> zzk
+    java.lang.Object zzl(com.android.billingclient.api.ConsumeParams,com.android.billingclient.api.ConsumeResponseListener) -> zzl
+    java.lang.Object zzm(com.android.billingclient.api.QueryProductDetailsParams,com.android.billingclient.api.ProductDetailsResponseListener) -> zzm
+    java.lang.Object zzn(java.lang.String,java.util.List,java.lang.String,com.android.billingclient.api.SkuDetailsResponseListener) -> zzn
+    java.lang.Object zzo(android.os.Bundle,android.app.Activity,android.os.ResultReceiver) -> zzo
+    java.lang.String zzI() -> zzI
+    java.util.concurrent.Future zzp(com.android.billingclient.api.BillingClientImpl,java.util.concurrent.Callable,long,java.lang.Runnable,android.os.Handler) -> zzp
+    java.util.concurrent.Future zzJ(java.util.concurrent.Callable,long,java.lang.Runnable,android.os.Handler) -> zzJ
+    void zzq(com.android.billingclient.api.BillingClientImpl,int) -> zzq
+    void zzr(com.android.billingclient.api.BillingClientImpl,int) -> zzr
+    void zzs(com.android.billingclient.api.BillingClientImpl,boolean) -> zzs
+    void zzt(com.android.billingclient.api.BillingClientImpl,boolean) -> zzt
+    void zzu(com.android.billingclient.api.BillingClientImpl,boolean) -> zzu
+    void zzv(com.android.billingclient.api.BillingClientImpl,boolean) -> zzv
+    void zzw(com.android.billingclient.api.BillingClientImpl,boolean) -> zzw
+    void zzx(com.android.billingclient.api.BillingClientImpl,boolean) -> zzx
+    void zzy(com.android.billingclient.api.BillingClientImpl,boolean) -> zzy
+    void zzz(com.android.billingclient.api.BillingClientImpl,boolean) -> zzz
+    void zzA(com.android.billingclient.api.BillingClientImpl,boolean) -> zzA
+    void zzB(com.android.billingclient.api.BillingClientImpl,com.google.android.gms.internal.play_billing.zze) -> zzB
+    void zzC(com.android.billingclient.api.BillingClientImpl,boolean) -> zzC
+    void zzD(com.android.billingclient.api.BillingClientImpl,boolean) -> zzD
+    void <init>(java.lang.String,boolean,android.content.Context,com.android.billingclient.api.zzbf) -> <init>
+    void <init>(java.lang.String,boolean,android.content.Context,com.android.billingclient.api.PurchasesUpdatedListener,com.android.billingclient.api.zzc) -> <init>
+    void <init>(android.content.Context,boolean,com.android.billingclient.api.PurchasesUpdatedListener,java.lang.String,java.lang.String,com.android.billingclient.api.zzc) -> <init>
+    void initialize(android.content.Context,com.android.billingclient.api.PurchasesUpdatedListener,boolean,com.android.billingclient.api.zzc) -> initialize
+    void zzE(com.android.billingclient.api.BillingResult) -> zzE
+    void zzK(com.android.billingclient.api.BillingResult,com.android.billingclient.api.PriceChangeConfirmationListener) -> zzK
+    void zzL(java.lang.String,com.android.billingclient.api.PurchaseHistoryResponseListener) -> zzL
+    void zzM(java.lang.String,com.android.billingclient.api.PurchasesResponseListener) -> zzM
+com.android.billingclient.api.BillingClientStateListener -> com.android.billingclient.api.BillingClientStateListener:
+    void onBillingServiceDisconnected() -> onBillingServiceDisconnected
+    void onBillingSetupFinished(com.android.billingclient.api.BillingResult) -> onBillingSetupFinished
+com.android.billingclient.api.BillingFlowParams -> com.android.billingclient.api.BillingFlowParams:
+    java.lang.String EXTRA_PARAM_KEY_ACCOUNT_ID -> EXTRA_PARAM_KEY_ACCOUNT_ID
+    boolean zza -> zza
+    java.lang.String zzb -> zzb
+    java.lang.String zzc -> zzc
+    com.android.billingclient.api.BillingFlowParams$SubscriptionUpdateParams zzd -> zzd
+    com.google.android.gms.internal.play_billing.zzu zze -> zze
+    java.util.ArrayList zzf -> zzf
+    boolean zzg -> zzg
+    com.android.billingclient.api.BillingFlowParams$Builder newBuilder() -> newBuilder
+    void <init>() -> <init>
+    int zza() -> zza
+    java.lang.String zzb() -> zzb
+    java.lang.String zzc() -> zzc
+    java.lang.String zzd() -> zzd
+    java.util.ArrayList zze() -> zze
+    java.util.List zzf() -> zzf
+    void zzg(com.android.billingclient.api.BillingFlowParams,boolean) -> zzg
+    void zzh(com.android.billingclient.api.BillingFlowParams,boolean) -> zzh
+    void zzi(com.android.billingclient.api.BillingFlowParams,java.lang.String) -> zzi
+    void zzj(com.android.billingclient.api.BillingFlowParams,java.lang.String) -> zzj
+    void zzk(com.android.billingclient.api.BillingFlowParams,com.google.android.gms.internal.play_billing.zzu) -> zzk
+    void zzl(com.android.billingclient.api.BillingFlowParams,java.util.ArrayList) -> zzl
+    void zzm(com.android.billingclient.api.BillingFlowParams,com.android.billingclient.api.BillingFlowParams$SubscriptionUpdateParams) -> zzm
+    void <init>(com.android.billingclient.api.zzba) -> <init>
+    boolean zzn() -> zzn
+    boolean zzo() -> zzo
+com.android.billingclient.api.BillingFlowParams$Builder -> com.android.billingclient.api.BillingFlowParams$Builder:
+    java.lang.String zza -> zza
+    java.lang.String zzb -> zzb
+    java.util.List zzc -> zzc
+    java.util.ArrayList zzd -> zzd
+    boolean zze -> zze
+    com.android.billingclient.api.BillingFlowParams$SubscriptionUpdateParams$Builder zzf -> zzf
+    com.android.billingclient.api.BillingFlowParams$Builder setIsOfferPersonalized(boolean) -> setIsOfferPersonalized
+    com.android.billingclient.api.BillingFlowParams$Builder setObfuscatedAccountId(java.lang.String) -> setObfuscatedAccountId
+    com.android.billingclient.api.BillingFlowParams$Builder setObfuscatedProfileId(java.lang.String) -> setObfuscatedProfileId
+    com.android.billingclient.api.BillingFlowParams$Builder setProductDetailsParamsList(java.util.List) -> setProductDetailsParamsList
+    com.android.billingclient.api.BillingFlowParams$Builder setSkuDetails(com.android.billingclient.api.SkuDetails) -> setSkuDetails
+    com.android.billingclient.api.BillingFlowParams$Builder setSubscriptionUpdateParams(com.android.billingclient.api.BillingFlowParams$SubscriptionUpdateParams) -> setSubscriptionUpdateParams
+    com.android.billingclient.api.BillingFlowParams build() -> build
+    void <init>() -> <init>
+    void <init>(com.android.billingclient.api.zzav) -> <init>
+com.android.billingclient.api.BillingFlowParams$ProductDetailsParams -> com.android.billingclient.api.BillingFlowParams$ProductDetailsParams:
+    com.android.billingclient.api.ProductDetails zza -> zza
+    java.lang.String zzb -> zzb
+    com.android.billingclient.api.BillingFlowParams$ProductDetailsParams$Builder newBuilder() -> newBuilder
+    com.android.billingclient.api.ProductDetails zza() -> zza
+    java.lang.String zzb() -> zzb
+    void <init>(com.android.billingclient.api.BillingFlowParams$ProductDetailsParams$Builder,com.android.billingclient.api.zzax) -> <init>
+com.android.billingclient.api.BillingFlowParams$ProductDetailsParams$Builder -> com.android.billingclient.api.BillingFlowParams$ProductDetailsParams$Builder:
+    com.android.billingclient.api.ProductDetails zza -> zza
+    java.lang.String zzb -> zzb
+    com.android.billingclient.api.BillingFlowParams$ProductDetailsParams$Builder setOfferToken(java.lang.String) -> setOfferToken
+    com.android.billingclient.api.BillingFlowParams$ProductDetailsParams$Builder setProductDetails(com.android.billingclient.api.ProductDetails) -> setProductDetails
+    com.android.billingclient.api.BillingFlowParams$ProductDetailsParams build() -> build
+    void <init>() -> <init>
+    com.android.billingclient.api.ProductDetails zza(com.android.billingclient.api.BillingFlowParams$ProductDetailsParams$Builder) -> zza
+    java.lang.String zzb(com.android.billingclient.api.BillingFlowParams$ProductDetailsParams$Builder) -> zzb
+    void <init>(com.android.billingclient.api.zzaw) -> <init>
+com.android.billingclient.api.BillingFlowParams$ProrationMode -> com.android.billingclient.api.BillingFlowParams$ProrationMode:
+    int UNKNOWN_SUBSCRIPTION_UPGRADE_DOWNGRADE_POLICY -> UNKNOWN_SUBSCRIPTION_UPGRADE_DOWNGRADE_POLICY
+    int IMMEDIATE_WITH_TIME_PRORATION -> IMMEDIATE_WITH_TIME_PRORATION
+    int IMMEDIATE_AND_CHARGE_PRORATED_PRICE -> IMMEDIATE_AND_CHARGE_PRORATED_PRICE
+    int IMMEDIATE_WITHOUT_PRORATION -> IMMEDIATE_WITHOUT_PRORATION
+    int DEFERRED -> DEFERRED
+    int IMMEDIATE_AND_CHARGE_FULL_PRICE -> IMMEDIATE_AND_CHARGE_FULL_PRICE
+com.android.billingclient.api.BillingFlowParams$SubscriptionUpdateParams -> com.android.billingclient.api.BillingFlowParams$SubscriptionUpdateParams:
+    java.lang.String zza -> zza
+    int zzb -> zzb
+    com.android.billingclient.api.BillingFlowParams$SubscriptionUpdateParams$Builder newBuilder() -> newBuilder
+    void <init>() -> <init>
+    int zza() -> zza
+    com.android.billingclient.api.BillingFlowParams$SubscriptionUpdateParams$Builder zzb(com.android.billingclient.api.BillingFlowParams$SubscriptionUpdateParams) -> zzb
+    java.lang.String zzc() -> zzc
+    void zzd(com.android.billingclient.api.BillingFlowParams$SubscriptionUpdateParams,java.lang.String) -> zzd
+    void zze(com.android.billingclient.api.BillingFlowParams$SubscriptionUpdateParams,int) -> zze
+    void <init>(com.android.billingclient.api.zzaz) -> <init>
+com.android.billingclient.api.BillingFlowParams$SubscriptionUpdateParams$Builder -> com.android.billingclient.api.BillingFlowParams$SubscriptionUpdateParams$Builder:
+    java.lang.String zza -> zza
+    boolean zzb -> zzb
+    int zzc -> zzc
+    com.android.billingclient.api.BillingFlowParams$SubscriptionUpdateParams$Builder setOldPurchaseToken(java.lang.String) -> setOldPurchaseToken
+    com.android.billingclient.api.BillingFlowParams$SubscriptionUpdateParams$Builder setOldSkuPurchaseToken(java.lang.String) -> setOldSkuPurchaseToken
+    com.android.billingclient.api.BillingFlowParams$SubscriptionUpdateParams$Builder setReplaceProrationMode(int) -> setReplaceProrationMode
+    com.android.billingclient.api.BillingFlowParams$SubscriptionUpdateParams$Builder setReplaceSkusProrationMode(int) -> setReplaceSkusProrationMode
+    com.android.billingclient.api.BillingFlowParams$SubscriptionUpdateParams build() -> build
+    void <init>() -> <init>
+    com.android.billingclient.api.BillingFlowParams$SubscriptionUpdateParams$Builder zza(com.android.billingclient.api.BillingFlowParams$SubscriptionUpdateParams$Builder) -> zza
+    void <init>(com.android.billingclient.api.zzay) -> <init>
+com.android.billingclient.api.BillingResult -> com.android.billingclient.api.BillingResult:
+    int zza -> zza
+    java.lang.String zzb -> zzb
+    int getResponseCode() -> getResponseCode
+    com.android.billingclient.api.BillingResult$Builder newBuilder() -> newBuilder
+    java.lang.String getDebugMessage() -> getDebugMessage
+    java.lang.String toString() -> toString
+    void <init>() -> <init>
+    void zza(com.android.billingclient.api.BillingResult,java.lang.String) -> zza
+    void zzb(com.android.billingclient.api.BillingResult,int) -> zzb
+com.android.billingclient.api.BillingResult$Builder -> com.android.billingclient.api.BillingResult$Builder:
+    int zza -> zza
+    java.lang.String zzb -> zzb
+    com.android.billingclient.api.BillingResult$Builder setDebugMessage(java.lang.String) -> setDebugMessage
+    com.android.billingclient.api.BillingResult$Builder setResponseCode(int) -> setResponseCode
+    com.android.billingclient.api.BillingResult build() -> build
+    void <init>() -> <init>
+    void <init>(com.android.billingclient.api.zzbb) -> <init>
+com.android.billingclient.api.ConsumeParams -> com.android.billingclient.api.ConsumeParams:
+    java.lang.String zza -> zza
+    com.android.billingclient.api.ConsumeParams$Builder newBuilder() -> newBuilder
+    java.lang.String getPurchaseToken() -> getPurchaseToken
+    void <init>() -> <init>
+    void zza(com.android.billingclient.api.ConsumeParams,java.lang.String) -> zza
+    void <init>(com.android.billingclient.api.zzbe) -> <init>
+com.android.billingclient.api.ConsumeParams$Builder -> com.android.billingclient.api.ConsumeParams$Builder:
+    java.lang.String zza -> zza
+    com.android.billingclient.api.ConsumeParams$Builder setPurchaseToken(java.lang.String) -> setPurchaseToken
+    com.android.billingclient.api.ConsumeParams build() -> build
+    void <init>() -> <init>
+    void <init>(com.android.billingclient.api.zzbd) -> <init>
+com.android.billingclient.api.ConsumeResponseListener -> com.android.billingclient.api.ConsumeResponseListener:
+    void onConsumeResponse(com.android.billingclient.api.BillingResult,java.lang.String) -> onConsumeResponse
+com.android.billingclient.api.InAppMessageParams -> com.android.billingclient.api.InAppMessageParams:
+    java.util.ArrayList mInAppMessageCategories -> mInAppMessageCategories
+    com.android.billingclient.api.InAppMessageParams$Builder newBuilder() -> newBuilder
+    java.util.ArrayList getInAppMessageCategoriesToShow() -> getInAppMessageCategoriesToShow
+    void <init>(java.util.Set) -> <init>
+    void <init>(java.util.Set,com.android.billingclient.api.zzbg) -> <init>
+com.android.billingclient.api.InAppMessageParams$Builder -> com.android.billingclient.api.InAppMessageParams$Builder:
+    java.util.Set mInAppMessageCategories -> mInAppMessageCategories
+    com.android.billingclient.api.InAppMessageParams$Builder addAllInAppMessageCategoriesToShow() -> addAllInAppMessageCategoriesToShow
+    com.android.billingclient.api.InAppMessageParams$Builder addInAppMessageCategoryToShow(int) -> addInAppMessageCategoryToShow
+    com.android.billingclient.api.InAppMessageParams build() -> build
+    void <init>() -> <init>
+com.android.billingclient.api.InAppMessageParams$InAppMessageCategoryId -> com.android.billingclient.api.InAppMessageParams$InAppMessageCategoryId:
+    int UNKNOWN_IN_APP_MESSAGE_CATEGORY_ID -> UNKNOWN_IN_APP_MESSAGE_CATEGORY_ID
+    int TRANSACTIONAL -> TRANSACTIONAL
+com.android.billingclient.api.InAppMessageResponseListener -> com.android.billingclient.api.InAppMessageResponseListener:
+    void onInAppMessageResponse(com.android.billingclient.api.InAppMessageResult) -> onInAppMessageResponse
+com.android.billingclient.api.InAppMessageResult -> com.android.billingclient.api.InAppMessageResult:
+    int mResponseCode -> mResponseCode
+    java.lang.String mPurchaseToken -> mPurchaseToken
+    int getResponseCode() -> getResponseCode
+    java.lang.String getPurchaseToken() -> getPurchaseToken
+    void <init>(int,java.lang.String) -> <init>
+com.android.billingclient.api.InAppMessageResult$InAppMessageResponseCode -> com.android.billingclient.api.InAppMessageResult$InAppMessageResponseCode:
+    int NO_ACTION_NEEDED -> NO_ACTION_NEEDED
+    int SUBSCRIPTION_STATUS_UPDATED -> SUBSCRIPTION_STATUS_UPDATED
+com.android.billingclient.api.PriceChangeConfirmationListener -> com.android.billingclient.api.PriceChangeConfirmationListener:
+    void onPriceChangeConfirmationResult(com.android.billingclient.api.BillingResult) -> onPriceChangeConfirmationResult
+com.android.billingclient.api.PriceChangeFlowParams -> com.android.billingclient.api.PriceChangeFlowParams:
+    com.android.billingclient.api.SkuDetails skuDetails -> skuDetails
+    com.android.billingclient.api.PriceChangeFlowParams$Builder newBuilder() -> newBuilder
+    com.android.billingclient.api.SkuDetails getSkuDetails() -> getSkuDetails
+    void -$$Nest$fputskuDetails(com.android.billingclient.api.PriceChangeFlowParams,com.android.billingclient.api.SkuDetails) -> -$$Nest$fputskuDetails
+    void <init>() -> <init>
+com.android.billingclient.api.PriceChangeFlowParams$Builder -> com.android.billingclient.api.PriceChangeFlowParams$Builder:
+    com.android.billingclient.api.SkuDetails skuDetails -> skuDetails
+    com.android.billingclient.api.PriceChangeFlowParams$Builder setSkuDetails(com.android.billingclient.api.SkuDetails) -> setSkuDetails
+    com.android.billingclient.api.PriceChangeFlowParams$Builder setSkuDetails(java.lang.String) -> setSkuDetails
+    com.android.billingclient.api.PriceChangeFlowParams build() -> build
+    void <init>() -> <init>
+com.android.billingclient.api.ProductDetails -> com.android.billingclient.api.ProductDetails:
+    java.lang.String zza -> zza
+    org.json.JSONObject zzb -> zzb
+    java.lang.String zzc -> zzc
+    java.lang.String zzd -> zzd
+    java.lang.String zze -> zze
+    java.lang.String zzf -> zzf
+    java.lang.String zzg -> zzg
+    java.lang.String zzh -> zzh
+    java.lang.String zzi -> zzi
+    java.util.List zzj -> zzj
+    java.util.List zzk -> zzk
+    com.android.billingclient.api.zzbi zzl -> zzl
+    int hashCode() -> hashCode
+    com.android.billingclient.api.ProductDetails$OneTimePurchaseOfferDetails getOneTimePurchaseOfferDetails() -> getOneTimePurchaseOfferDetails
+    java.lang.String getDescription() -> getDescription
+    java.lang.String getName() -> getName
+    java.lang.String getProductId() -> getProductId
+    java.lang.String getProductType() -> getProductType
+    java.lang.String getTitle() -> getTitle
+    java.lang.String toString() -> toString
+    java.util.List getSubscriptionOfferDetails() -> getSubscriptionOfferDetails
+    void <init>(java.lang.String) -> <init>
+    boolean equals(java.lang.Object) -> equals
+    java.lang.String zza() -> zza
+    java.lang.String zzb() -> zzb
+    java.lang.String zzc() -> zzc
+com.android.billingclient.api.ProductDetails$OneTimePurchaseOfferDetails -> com.android.billingclient.api.ProductDetails$OneTimePurchaseOfferDetails:
+    java.lang.String zza -> zza
+    long zzb -> zzb
+    java.lang.String zzc -> zzc
+    java.lang.String zzd -> zzd
+    java.lang.String zze -> zze
+    com.google.android.gms.internal.play_billing.zzu zzf -> zzf
+    long getPriceAmountMicros() -> getPriceAmountMicros
+    java.lang.String getFormattedPrice() -> getFormattedPrice
+    java.lang.String getPriceCurrencyCode() -> getPriceCurrencyCode
+    void <init>(org.json.JSONObject) -> <init>
+    java.lang.String zza() -> zza
+com.android.billingclient.api.ProductDetails$PricingPhase -> com.android.billingclient.api.ProductDetails$PricingPhase:
+    java.lang.String formattedPrice -> formattedPrice
+    long priceAmountMicros -> priceAmountMicros
+    java.lang.String priceCurrencyCode -> priceCurrencyCode
+    java.lang.String billingPeriod -> billingPeriod
+    int billingCycleCount -> billingCycleCount
+    int recurrenceMode -> recurrenceMode
+    int getBillingCycleCount() -> getBillingCycleCount
+    int getRecurrenceMode() -> getRecurrenceMode
+    long getPriceAmountMicros() -> getPriceAmountMicros
+    java.lang.String getBillingPeriod() -> getBillingPeriod
+    java.lang.String getFormattedPrice() -> getFormattedPrice
+    java.lang.String getPriceCurrencyCode() -> getPriceCurrencyCode
+    void <init>(org.json.JSONObject) -> <init>
+com.android.billingclient.api.ProductDetails$PricingPhases -> com.android.billingclient.api.ProductDetails$PricingPhases:
+    java.util.List pricingPhaseList -> pricingPhaseList
+    java.util.List getPricingPhaseList() -> getPricingPhaseList
+    void <init>(org.json.JSONArray) -> <init>
+com.android.billingclient.api.ProductDetails$RecurrenceMode -> com.android.billingclient.api.ProductDetails$RecurrenceMode:
+    int INFINITE_RECURRING -> INFINITE_RECURRING
+    int FINITE_RECURRING -> FINITE_RECURRING
+    int NON_RECURRING -> NON_RECURRING
+com.android.billingclient.api.ProductDetails$SubscriptionOfferDetails -> com.android.billingclient.api.ProductDetails$SubscriptionOfferDetails:
+    java.lang.String zza -> zza
+    java.lang.String zzb -> zzb
+    java.lang.String zzc -> zzc
+    com.android.billingclient.api.ProductDetails$PricingPhases zzd -> zzd
+    java.util.List zze -> zze
+    com.android.billingclient.api.zzbh zzf -> zzf
+    com.android.billingclient.api.ProductDetails$PricingPhases getPricingPhases() -> getPricingPhases
+    java.lang.String getBasePlanId() -> getBasePlanId
+    java.lang.String getOfferId() -> getOfferId
+    java.lang.String getOfferToken() -> getOfferToken
+    java.util.List getOfferTags() -> getOfferTags
+    void <init>(org.json.JSONObject) -> <init>
+com.android.billingclient.api.ProductDetailsResponseListener -> com.android.billingclient.api.ProductDetailsResponseListener:
+    void onProductDetailsResponse(com.android.billingclient.api.BillingResult,java.util.List) -> onProductDetailsResponse
+com.android.billingclient.api.ProxyBillingActivity -> com.android.billingclient.api.ProxyBillingActivity:
+    java.lang.String KEY_PRICE_CHANGE_RESULT_RECEIVER -> KEY_PRICE_CHANGE_RESULT_RECEIVER
+    java.lang.String KEY_IN_APP_MESSAGE_RESULT_RECEIVER -> KEY_IN_APP_MESSAGE_RESULT_RECEIVER
+    java.lang.String TAG -> TAG
+    int REQUEST_CODE_LAUNCH_ACTIVITY -> REQUEST_CODE_LAUNCH_ACTIVITY
+    int REQUEST_CODE_IN_APP_MESSAGE_FLOW -> REQUEST_CODE_IN_APP_MESSAGE_FLOW
+    int REQUEST_CODE_FIRST_PARTY_PURCHASE_FLOW -> REQUEST_CODE_FIRST_PARTY_PURCHASE_FLOW
+    java.lang.String KEY_SEND_CANCELLED_BROADCAST_IF_FINISHED -> KEY_SEND_CANCELLED_BROADCAST_IF_FINISHED
+    android.os.ResultReceiver priceChangeResultReceiver -> priceChangeResultReceiver
+    android.os.ResultReceiver inAppMessageResultReceiver -> inAppMessageResultReceiver
+    boolean sendCancelledBroadcastIfFinished -> sendCancelledBroadcastIfFinished
+    boolean isFlowFromFirstPartyClient -> isFlowFromFirstPartyClient
+    android.content.Intent makeAlternativeBillingIntent(java.lang.String) -> makeAlternativeBillingIntent
+    android.content.Intent makePurchasesUpdatedIntent() -> makePurchasesUpdatedIntent
+    void <init>() -> <init>
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void onCreate(android.os.Bundle) -> onCreate
+    void onDestroy() -> onDestroy
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+com.android.billingclient.api.Purchase -> com.android.billingclient.api.Purchase:
+    java.lang.String zza -> zza
+    java.lang.String zzb -> zzb
+    org.json.JSONObject zzc -> zzc
+    int getPurchaseState() -> getPurchaseState
+    int getQuantity() -> getQuantity
+    int hashCode() -> hashCode
+    long getPurchaseTime() -> getPurchaseTime
+    com.android.billingclient.api.AccountIdentifiers getAccountIdentifiers() -> getAccountIdentifiers
+    java.lang.String getDeveloperPayload() -> getDeveloperPayload
+    java.lang.String getOrderId() -> getOrderId
+    java.lang.String getOriginalJson() -> getOriginalJson
+    java.lang.String getPackageName() -> getPackageName
+    java.lang.String getPurchaseToken() -> getPurchaseToken
+    java.lang.String getSignature() -> getSignature
+    java.lang.String toString() -> toString
+    java.util.ArrayList getSkus() -> getSkus
+    java.util.List getProducts() -> getProducts
+    void <init>(java.lang.String,java.lang.String) -> <init>
+    boolean equals(java.lang.Object) -> equals
+    boolean isAcknowledged() -> isAcknowledged
+    boolean isAutoRenewing() -> isAutoRenewing
+    java.util.ArrayList zza() -> zza
+com.android.billingclient.api.Purchase$PurchaseState -> com.android.billingclient.api.Purchase$PurchaseState:
+    int UNSPECIFIED_STATE -> UNSPECIFIED_STATE
+    int PURCHASED -> PURCHASED
+    int PENDING -> PENDING
+com.android.billingclient.api.PurchaseHistoryRecord -> com.android.billingclient.api.PurchaseHistoryRecord:
+    java.lang.String zza -> zza
+    java.lang.String zzb -> zzb
+    org.json.JSONObject zzc -> zzc
+    int getQuantity() -> getQuantity
+    int hashCode() -> hashCode
+    long getPurchaseTime() -> getPurchaseTime
+    java.lang.String getDeveloperPayload() -> getDeveloperPayload
+    java.lang.String getOriginalJson() -> getOriginalJson
+    java.lang.String getPurchaseToken() -> getPurchaseToken
+    java.lang.String getSignature() -> getSignature
+    java.lang.String toString() -> toString
+    java.util.ArrayList getSkus() -> getSkus
+    java.util.List getProducts() -> getProducts
+    void <init>(java.lang.String,java.lang.String) -> <init>
+    boolean equals(java.lang.Object) -> equals
+    java.util.ArrayList zza() -> zza
+com.android.billingclient.api.PurchaseHistoryResponseListener -> com.android.billingclient.api.PurchaseHistoryResponseListener:
+    void onPurchaseHistoryResponse(com.android.billingclient.api.BillingResult,java.util.List) -> onPurchaseHistoryResponse
+com.android.billingclient.api.PurchasesResponseListener -> com.android.billingclient.api.PurchasesResponseListener:
+    void onQueryPurchasesResponse(com.android.billingclient.api.BillingResult,java.util.List) -> onQueryPurchasesResponse
+com.android.billingclient.api.PurchasesUpdatedListener -> com.android.billingclient.api.PurchasesUpdatedListener:
+    void onPurchasesUpdated(com.android.billingclient.api.BillingResult,java.util.List) -> onPurchasesUpdated
+com.android.billingclient.api.QueryProductDetailsParams -> com.android.billingclient.api.QueryProductDetailsParams:
+    com.google.android.gms.internal.play_billing.zzu zza -> zza
+    com.android.billingclient.api.QueryProductDetailsParams$Builder newBuilder() -> newBuilder
+    com.google.android.gms.internal.play_billing.zzu zza() -> zza
+    java.lang.String zzb() -> zzb
+    void <init>(com.android.billingclient.api.QueryProductDetailsParams$Builder,com.android.billingclient.api.zzbo) -> <init>
+com.android.billingclient.api.QueryProductDetailsParams$Builder -> com.android.billingclient.api.QueryProductDetailsParams$Builder:
+    com.google.android.gms.internal.play_billing.zzu zza -> zza
+    com.android.billingclient.api.QueryProductDetailsParams$Builder setProductList(java.util.List) -> setProductList
+    com.android.billingclient.api.QueryProductDetailsParams build() -> build
+    void <init>() -> <init>
+    com.google.android.gms.internal.play_billing.zzu zza(com.android.billingclient.api.QueryProductDetailsParams$Builder) -> zza
+    void <init>(com.android.billingclient.api.zzbl) -> <init>
+com.android.billingclient.api.QueryProductDetailsParams$Product -> com.android.billingclient.api.QueryProductDetailsParams$Product:
+    java.lang.String zza -> zza
+    java.lang.String zzb -> zzb
+    com.android.billingclient.api.QueryProductDetailsParams$Product$Builder newBuilder() -> newBuilder
+    java.lang.String zza() -> zza
+    java.lang.String zzb() -> zzb
+    void <init>(com.android.billingclient.api.QueryProductDetailsParams$Product$Builder,com.android.billingclient.api.zzbn) -> <init>
+com.android.billingclient.api.QueryProductDetailsParams$Product$Builder -> com.android.billingclient.api.QueryProductDetailsParams$Product$Builder:
+    java.lang.String zza -> zza
+    java.lang.String zzb -> zzb
+    com.android.billingclient.api.QueryProductDetailsParams$Product$Builder setProductId(java.lang.String) -> setProductId
+    com.android.billingclient.api.QueryProductDetailsParams$Product$Builder setProductType(java.lang.String) -> setProductType
+    com.android.billingclient.api.QueryProductDetailsParams$Product build() -> build
+    void <init>() -> <init>
+    java.lang.String zza(com.android.billingclient.api.QueryProductDetailsParams$Product$Builder) -> zza
+    java.lang.String zzb(com.android.billingclient.api.QueryProductDetailsParams$Product$Builder) -> zzb
+    void <init>(com.android.billingclient.api.zzbm) -> <init>
+com.android.billingclient.api.QueryPurchaseHistoryParams -> com.android.billingclient.api.QueryPurchaseHistoryParams:
+    java.lang.String zza -> zza
+    com.android.billingclient.api.QueryPurchaseHistoryParams$Builder newBuilder() -> newBuilder
+    java.lang.String zza() -> zza
+    void <init>(com.android.billingclient.api.QueryPurchaseHistoryParams$Builder,com.android.billingclient.api.zzbq) -> <init>
+com.android.billingclient.api.QueryPurchaseHistoryParams$Builder -> com.android.billingclient.api.QueryPurchaseHistoryParams$Builder:
+    java.lang.String zza -> zza
+    com.android.billingclient.api.QueryPurchaseHistoryParams$Builder setProductType(java.lang.String) -> setProductType
+    com.android.billingclient.api.QueryPurchaseHistoryParams build() -> build
+    void <init>() -> <init>
+    java.lang.String zza(com.android.billingclient.api.QueryPurchaseHistoryParams$Builder) -> zza
+    void <init>(com.android.billingclient.api.zzbp) -> <init>
+com.android.billingclient.api.QueryPurchasesParams -> com.android.billingclient.api.QueryPurchasesParams:
+    java.lang.String zza -> zza
+    com.android.billingclient.api.QueryPurchasesParams$Builder newBuilder() -> newBuilder
+    java.lang.String zza() -> zza
+    void <init>(com.android.billingclient.api.QueryPurchasesParams$Builder,com.android.billingclient.api.zzbs) -> <init>
+com.android.billingclient.api.QueryPurchasesParams$Builder -> com.android.billingclient.api.QueryPurchasesParams$Builder:
+    java.lang.String zza -> zza
+    com.android.billingclient.api.QueryPurchasesParams$Builder setProductType(java.lang.String) -> setProductType
+    com.android.billingclient.api.QueryPurchasesParams build() -> build
+    void <init>() -> <init>
+    java.lang.String zza(com.android.billingclient.api.QueryPurchasesParams$Builder) -> zza
+    void <init>(com.android.billingclient.api.zzbr) -> <init>
+com.android.billingclient.api.SkuDetails -> com.android.billingclient.api.SkuDetails:
+    java.lang.String zza -> zza
+    org.json.JSONObject zzb -> zzb
+    int getIntroductoryPriceCycles() -> getIntroductoryPriceCycles
+    int hashCode() -> hashCode
+    long getIntroductoryPriceAmountMicros() -> getIntroductoryPriceAmountMicros
+    long getOriginalPriceAmountMicros() -> getOriginalPriceAmountMicros
+    long getPriceAmountMicros() -> getPriceAmountMicros
+    java.lang.String getDescription() -> getDescription
+    java.lang.String getFreeTrialPeriod() -> getFreeTrialPeriod
+    java.lang.String getIconUrl() -> getIconUrl
+    java.lang.String getIntroductoryPrice() -> getIntroductoryPrice
+    java.lang.String getIntroductoryPricePeriod() -> getIntroductoryPricePeriod
+    java.lang.String getOriginalJson() -> getOriginalJson
+    java.lang.String getOriginalPrice() -> getOriginalPrice
+    java.lang.String getPrice() -> getPrice
+    java.lang.String getPriceCurrencyCode() -> getPriceCurrencyCode
+    java.lang.String getSku() -> getSku
+    java.lang.String getSubscriptionPeriod() -> getSubscriptionPeriod
+    java.lang.String getTitle() -> getTitle
+    java.lang.String getType() -> getType
+    java.lang.String toString() -> toString
+    void <init>(java.lang.String) -> <init>
+    boolean equals(java.lang.Object) -> equals
+    int zza() -> zza
+    java.lang.String zzb() -> zzb
+    java.lang.String zzc() -> zzc
+    java.lang.String zzd() -> zzd
+    java.lang.String zze() -> zze
+    java.lang.String zzf() -> zzf
+com.android.billingclient.api.SkuDetailsParams -> com.android.billingclient.api.SkuDetailsParams:
+    java.lang.String zza -> zza
+    java.util.List zzb -> zzb
+    com.android.billingclient.api.SkuDetailsParams$Builder newBuilder() -> newBuilder
+    java.lang.String getSkuType() -> getSkuType
+    java.util.List getSkusList() -> getSkusList
+    void <init>() -> <init>
+    void zza(com.android.billingclient.api.SkuDetailsParams,java.lang.String) -> zza
+    void zzb(com.android.billingclient.api.SkuDetailsParams,java.util.List) -> zzb
+com.android.billingclient.api.SkuDetailsParams$Builder -> com.android.billingclient.api.SkuDetailsParams$Builder:
+    java.lang.String zza -> zza
+    java.util.List zzb -> zzb
+    com.android.billingclient.api.SkuDetailsParams$Builder setSkusList(java.util.List) -> setSkusList
+    com.android.billingclient.api.SkuDetailsParams$Builder setType(java.lang.String) -> setType
+    com.android.billingclient.api.SkuDetailsParams build() -> build
+    void <init>() -> <init>
+    void <init>(com.android.billingclient.api.zzbt) -> <init>
+com.android.billingclient.api.SkuDetailsResponseListener -> com.android.billingclient.api.SkuDetailsResponseListener:
+    void onSkuDetailsResponse(com.android.billingclient.api.BillingResult,java.util.List) -> onSkuDetailsResponse
+com.android.billingclient.api.zza -> com.android.billingclient.api.zza:
+com.android.billingclient.api.zzaa -> com.android.billingclient.api.zzaa:
+    com.android.billingclient.api.BillingClientImpl zza -> zza
+    com.android.billingclient.api.AcknowledgePurchaseParams zzb -> zzb
+    com.android.billingclient.api.AcknowledgePurchaseResponseListener zzc -> zzc
+    java.lang.Object call() -> call
+    void <init>(com.android.billingclient.api.BillingClientImpl,com.android.billingclient.api.AcknowledgePurchaseParams,com.android.billingclient.api.AcknowledgePurchaseResponseListener) -> <init>
+com.android.billingclient.api.zzab -> com.android.billingclient.api.zzab:
+    com.android.billingclient.api.AcknowledgePurchaseResponseListener zza -> zza
+    void <init>(com.android.billingclient.api.AcknowledgePurchaseResponseListener) -> <init>
+    void run() -> run
+com.android.billingclient.api.zzac -> com.android.billingclient.api.zzac:
+    com.android.billingclient.api.BillingClientImpl zza -> zza
+    int zzb -> zzb
+    java.lang.String zzc -> zzc
+    java.lang.String zzd -> zzd
+    com.android.billingclient.api.BillingFlowParams zze -> zze
+    android.os.Bundle zzf -> zzf
+    java.lang.Object call() -> call
+    void <init>(com.android.billingclient.api.BillingClientImpl,int,java.lang.String,java.lang.String,com.android.billingclient.api.BillingFlowParams,android.os.Bundle) -> <init>
+com.android.billingclient.api.zzad -> com.android.billingclient.api.zzad:
+    com.android.billingclient.api.BillingClientImpl zza -> zza
+    java.lang.String zzb -> zzb
+    java.lang.String zzc -> zzc
+    java.lang.Object call() -> call
+    void <init>(com.android.billingclient.api.BillingClientImpl,java.lang.String,java.lang.String) -> <init>
+com.android.billingclient.api.zzae -> com.android.billingclient.api.zzae:
+    com.android.billingclient.api.PurchasesResponseListener zza -> zza
+    void <init>(com.android.billingclient.api.PurchasesResponseListener) -> <init>
+    void run() -> run
+com.android.billingclient.api.zzaf -> com.android.billingclient.api.zzaf:
+    com.android.billingclient.api.BillingClientImpl zza -> zza
+    android.os.Bundle zzb -> zzb
+    android.app.Activity zzc -> zzc
+    android.os.ResultReceiver zzd -> zzd
+    java.lang.Object call() -> call
+    void <init>(com.android.billingclient.api.BillingClientImpl,android.os.Bundle,android.app.Activity,android.os.ResultReceiver) -> <init>
+com.android.billingclient.api.zzag -> com.android.billingclient.api.zzag:
+    java.util.concurrent.Future zza -> zza
+    java.lang.Runnable zzb -> zzb
+    void <init>(java.util.concurrent.Future,java.lang.Runnable) -> <init>
+    void run() -> run
+com.android.billingclient.api.zzah -> com.android.billingclient.api.zzah:
+    com.android.billingclient.api.BillingClientImpl zza -> zza
+    com.android.billingclient.api.BillingResult zzb -> zzb
+    void <init>(com.android.billingclient.api.BillingClientImpl,com.android.billingclient.api.BillingResult) -> <init>
+    void run() -> run
+com.android.billingclient.api.zzai -> com.android.billingclient.api.zzai:
+    com.android.billingclient.api.PriceChangeConfirmationListener zza -> zza
+    void <init>(com.android.billingclient.api.BillingClientImpl,android.os.Handler,com.android.billingclient.api.PriceChangeConfirmationListener) -> <init>
+    void onReceiveResult(int,android.os.Bundle) -> onReceiveResult
+com.android.billingclient.api.zzaj -> com.android.billingclient.api.zzaj:
+    java.lang.String zza -> zza
+    com.android.billingclient.api.PurchasesResponseListener zzb -> zzb
+    com.android.billingclient.api.BillingClientImpl zzc -> zzc
+    java.lang.Object call() -> call
+    void <init>(com.android.billingclient.api.BillingClientImpl,java.lang.String,com.android.billingclient.api.PurchasesResponseListener) -> <init>
+com.android.billingclient.api.zzak -> com.android.billingclient.api.zzak:
+    java.lang.String zza -> zza
+    com.android.billingclient.api.PurchaseHistoryResponseListener zzb -> zzb
+    com.android.billingclient.api.BillingClientImpl zzc -> zzc
+    java.lang.Object call() -> call
+    void <init>(com.android.billingclient.api.BillingClientImpl,java.lang.String,com.android.billingclient.api.PurchaseHistoryResponseListener) -> <init>
+com.android.billingclient.api.zzal -> com.android.billingclient.api.zzal:
+    com.android.billingclient.api.InAppMessageResponseListener zza -> zza
+    void <init>(com.android.billingclient.api.BillingClientImpl,android.os.Handler,com.android.billingclient.api.InAppMessageResponseListener) -> <init>
+    void onReceiveResult(int,android.os.Bundle) -> onReceiveResult
+com.android.billingclient.api.zzam -> com.android.billingclient.api.zzam:
+    java.util.concurrent.ThreadFactory zza -> zza
+    java.util.concurrent.atomic.AtomicInteger zzb -> zzb
+    java.lang.Thread newThread(java.lang.Runnable) -> newThread
+    void <init>(com.android.billingclient.api.BillingClientImpl) -> <init>
+com.android.billingclient.api.zzan -> com.android.billingclient.api.zzan:
+    com.android.billingclient.api.zzaq zza -> zza
+    java.lang.Object call() -> call
+    void <init>(com.android.billingclient.api.zzaq) -> <init>
+com.android.billingclient.api.zzao -> com.android.billingclient.api.zzao:
+    com.android.billingclient.api.zzaq zza -> zza
+    void <init>(com.android.billingclient.api.zzaq) -> <init>
+    void run() -> run
+com.android.billingclient.api.zzap -> com.android.billingclient.api.zzap:
+com.android.billingclient.api.zzaq -> com.android.billingclient.api.zzaq:
+    java.lang.Object zzb -> zzb
+    boolean zzc -> zzc
+    com.android.billingclient.api.BillingClientStateListener zzd -> zzd
+    com.android.billingclient.api.BillingClientImpl zza -> zza
+    java.lang.Object zza() -> zza
+    void <init>(com.android.billingclient.api.BillingClientImpl,com.android.billingclient.api.BillingClientStateListener,com.android.billingclient.api.zzap) -> <init>
+    void zzb() -> zzb
+    void zzc() -> zzc
+    void zzd(com.android.billingclient.api.BillingResult) -> zzd
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+com.android.billingclient.api.zzar -> com.android.billingclient.api.zzar:
+com.android.billingclient.api.zzas -> com.android.billingclient.api.zzas:
+    java.lang.ref.WeakReference zza -> zza
+    android.os.ResultReceiver zzb -> zzb
+    void <init>(java.lang.ref.WeakReference,android.os.ResultReceiver,com.android.billingclient.api.zzar) -> <init>
+    void zza(android.os.Bundle) -> zza
+com.android.billingclient.api.zzat -> com.android.billingclient.api.zzat:
+    java.util.List zza -> zza
+    com.android.billingclient.api.BillingResult zzb -> zzb
+    com.android.billingclient.api.BillingResult zza() -> zza
+    java.util.List zzb() -> zzb
+    void <init>(com.android.billingclient.api.BillingResult,java.util.List) -> <init>
+com.android.billingclient.api.zzau -> com.android.billingclient.api.zzau:
+    long zza -> zza
+    void <init>() -> <init>
+    void <init>(long) -> <init>
+    void nativeOnAcknowledgePurchaseResponse(int,java.lang.String,long) -> nativeOnAcknowledgePurchaseResponse
+    void nativeOnBillingServiceDisconnected() -> nativeOnBillingServiceDisconnected
+    void nativeOnBillingSetupFinished(int,java.lang.String,long) -> nativeOnBillingSetupFinished
+    void nativeOnConsumePurchaseResponse(int,java.lang.String,java.lang.String,long) -> nativeOnConsumePurchaseResponse
+    void nativeOnPriceChangeConfirmationResult(int,java.lang.String,long) -> nativeOnPriceChangeConfirmationResult
+    void nativeOnPurchaseHistoryResponse(int,java.lang.String,com.android.billingclient.api.PurchaseHistoryRecord[],long) -> nativeOnPurchaseHistoryResponse
+    void nativeOnPurchasesUpdated(int,java.lang.String,com.android.billingclient.api.Purchase[]) -> nativeOnPurchasesUpdated
+    void nativeOnQueryPurchasesResponse(int,java.lang.String,com.android.billingclient.api.Purchase[],long) -> nativeOnQueryPurchasesResponse
+    void nativeOnSkuDetailsResponse(int,java.lang.String,com.android.billingclient.api.SkuDetails[],long) -> nativeOnSkuDetailsResponse
+    void onAcknowledgePurchaseResponse(com.android.billingclient.api.BillingResult) -> onAcknowledgePurchaseResponse
+    void onBillingServiceDisconnected() -> onBillingServiceDisconnected
+    void onBillingSetupFinished(com.android.billingclient.api.BillingResult) -> onBillingSetupFinished
+    void onConsumeResponse(com.android.billingclient.api.BillingResult,java.lang.String) -> onConsumeResponse
+    void onPriceChangeConfirmationResult(com.android.billingclient.api.BillingResult) -> onPriceChangeConfirmationResult
+    void onPurchaseHistoryResponse(com.android.billingclient.api.BillingResult,java.util.List) -> onPurchaseHistoryResponse
+    void onPurchasesUpdated(com.android.billingclient.api.BillingResult,java.util.List) -> onPurchasesUpdated
+    void onQueryPurchasesResponse(com.android.billingclient.api.BillingResult,java.util.List) -> onQueryPurchasesResponse
+    void onSkuDetailsResponse(com.android.billingclient.api.BillingResult,java.util.List) -> onSkuDetailsResponse
+com.android.billingclient.api.zzav -> com.android.billingclient.api.zzav:
+com.android.billingclient.api.zzaw -> com.android.billingclient.api.zzaw:
+com.android.billingclient.api.zzax -> com.android.billingclient.api.zzax:
+com.android.billingclient.api.zzay -> com.android.billingclient.api.zzay:
+com.android.billingclient.api.zzaz -> com.android.billingclient.api.zzaz:
+com.android.billingclient.api.zzb -> com.android.billingclient.api.zzb:
+com.android.billingclient.api.zzba -> com.android.billingclient.api.zzba:
+com.android.billingclient.api.zzbb -> com.android.billingclient.api.zzbb:
+com.android.billingclient.api.zzbc -> com.android.billingclient.api.zzbc:
+    com.android.billingclient.api.BillingResult zza -> zza
+    com.android.billingclient.api.BillingResult zzb -> zzb
+    com.android.billingclient.api.BillingResult zzc -> zzc
+    com.android.billingclient.api.BillingResult zzd -> zzd
+    com.android.billingclient.api.BillingResult zze -> zze
+    com.android.billingclient.api.BillingResult zzf -> zzf
+    com.android.billingclient.api.BillingResult zzg -> zzg
+    com.android.billingclient.api.BillingResult zzh -> zzh
+    com.android.billingclient.api.BillingResult zzi -> zzi
+    com.android.billingclient.api.BillingResult zzj -> zzj
+    com.android.billingclient.api.BillingResult zzk -> zzk
+    com.android.billingclient.api.BillingResult zzl -> zzl
+    com.android.billingclient.api.BillingResult zzm -> zzm
+    com.android.billingclient.api.BillingResult zzn -> zzn
+    com.android.billingclient.api.BillingResult zzo -> zzo
+    com.android.billingclient.api.BillingResult zzp -> zzp
+    com.android.billingclient.api.BillingResult zzq -> zzq
+    com.android.billingclient.api.BillingResult zzr -> zzr
+    com.android.billingclient.api.BillingResult zzs -> zzs
+    com.android.billingclient.api.BillingResult zzt -> zzt
+    com.android.billingclient.api.BillingResult zzu -> zzu
+    com.android.billingclient.api.BillingResult zzv -> zzv
+    com.android.billingclient.api.BillingResult zzw -> zzw
+    com.android.billingclient.api.BillingResult zzx -> zzx
+    com.android.billingclient.api.BillingResult zzy -> zzy
+    com.android.billingclient.api.BillingResult zzz -> zzz
+    void <clinit>() -> <clinit>
+com.android.billingclient.api.zzbd -> com.android.billingclient.api.zzbd:
+com.android.billingclient.api.zzbe -> com.android.billingclient.api.zzbe:
+com.android.billingclient.api.zzbf -> com.android.billingclient.api.zzbf:
+com.android.billingclient.api.zzbg -> com.android.billingclient.api.zzbg:
+com.android.billingclient.api.zzbh -> com.android.billingclient.api.zzbh:
+    void <init>(org.json.JSONObject) -> <init>
+com.android.billingclient.api.zzbi -> com.android.billingclient.api.zzbi:
+    void <init>(org.json.JSONObject) -> <init>
+com.android.billingclient.api.zzbj -> com.android.billingclient.api.zzbj:
+    java.util.List zza -> zza
+    com.android.billingclient.api.BillingResult zzb -> zzb
+    com.android.billingclient.api.BillingResult zza() -> zza
+    java.util.List zzb() -> zzb
+    void <init>(com.android.billingclient.api.BillingResult,java.util.List) -> <init>
+com.android.billingclient.api.zzbk -> com.android.billingclient.api.zzbk:
+    com.android.billingclient.api.BillingResult zza(android.os.Bundle,java.lang.String,java.lang.String) -> zza
+com.android.billingclient.api.zzbl -> com.android.billingclient.api.zzbl:
+com.android.billingclient.api.zzbm -> com.android.billingclient.api.zzbm:
+com.android.billingclient.api.zzbn -> com.android.billingclient.api.zzbn:
+com.android.billingclient.api.zzbo -> com.android.billingclient.api.zzbo:
+com.android.billingclient.api.zzbp -> com.android.billingclient.api.zzbp:
+com.android.billingclient.api.zzbq -> com.android.billingclient.api.zzbq:
+com.android.billingclient.api.zzbr -> com.android.billingclient.api.zzbr:
+com.android.billingclient.api.zzbs -> com.android.billingclient.api.zzbs:
+com.android.billingclient.api.zzbt -> com.android.billingclient.api.zzbt:
+com.android.billingclient.api.zzbu -> com.android.billingclient.api.zzbu:
+com.android.billingclient.api.zzbv -> com.android.billingclient.api.zzbv:
+    java.lang.String zza -> zza
+    com.android.billingclient.api.zzbv zza(java.lang.String) -> zza
+    com.android.billingclient.api.zzbx zzb() -> zzb
+    void <init>() -> <init>
+    void <init>(com.android.billingclient.api.zzbu) -> <init>
+com.android.billingclient.api.zzbw -> com.android.billingclient.api.zzbw:
+com.android.billingclient.api.zzbx -> com.android.billingclient.api.zzbx:
+    java.lang.String zza -> zza
+    java.lang.String zza() -> zza
+    void <init>(java.lang.String,java.lang.String,java.lang.String,int,com.android.billingclient.api.zzbw) -> <init>
+com.android.billingclient.api.zzc -> com.android.billingclient.api.zzc:
+    void zza() -> zza
+com.android.billingclient.api.zzd -> com.android.billingclient.api.zzd:
+com.android.billingclient.api.zze -> com.android.billingclient.api.zze:
+    java.lang.String zza -> zza
+    java.lang.String zzb -> zzb
+    java.lang.String zzc -> zzc
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+    void <init>(org.json.JSONObject,com.android.billingclient.api.zzd) -> <init>
+    boolean equals(java.lang.Object) -> equals
+com.android.billingclient.api.zzf -> com.android.billingclient.api.zzf:
+com.android.billingclient.api.zzg -> com.android.billingclient.api.zzg:
+com.android.billingclient.api.zzh -> com.android.billingclient.api.zzh:
+com.android.billingclient.api.zzi -> com.android.billingclient.api.zzi:
+com.android.billingclient.api.zzj -> com.android.billingclient.api.zzj:
+com.android.billingclient.api.zzk -> com.android.billingclient.api.zzk:
+com.android.billingclient.api.zzl -> com.android.billingclient.api.zzl:
+com.android.billingclient.api.zzm -> com.android.billingclient.api.zzm:
+com.android.billingclient.api.zzn -> com.android.billingclient.api.zzn:
+com.android.billingclient.api.zzo -> com.android.billingclient.api.zzo:
+    com.android.billingclient.api.PurchasesUpdatedListener zzb -> zzb
+    com.android.billingclient.api.zzbf zzc -> zzc
+    com.android.billingclient.api.zzc zzd -> zzd
+    boolean zze -> zze
+    com.android.billingclient.api.zzp zza -> zza
+    com.android.billingclient.api.zzbf zza(com.android.billingclient.api.zzo) -> zza
+    com.android.billingclient.api.PurchasesUpdatedListener zzb(com.android.billingclient.api.zzo) -> zzb
+    void <init>(com.android.billingclient.api.zzp,com.android.billingclient.api.zzbf,com.android.billingclient.api.zzn) -> <init>
+    void <init>(com.android.billingclient.api.zzp,com.android.billingclient.api.PurchasesUpdatedListener,com.android.billingclient.api.zzc,com.android.billingclient.api.zzn) -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    void zzc(android.content.Context,android.content.IntentFilter) -> zzc
+    void zzd(android.content.Context) -> zzd
+com.android.billingclient.api.zzp -> com.android.billingclient.api.zzp:
+    android.content.Context zza -> zza
+    com.android.billingclient.api.zzo zzb -> zzb
+    com.android.billingclient.api.zzo zza(com.android.billingclient.api.zzp) -> zza
+    com.android.billingclient.api.zzbf zzb() -> zzb
+    com.android.billingclient.api.PurchasesUpdatedListener zzc() -> zzc
+    void <init>(android.content.Context,com.android.billingclient.api.zzbf) -> <init>
+    void <init>(android.content.Context,com.android.billingclient.api.PurchasesUpdatedListener,com.android.billingclient.api.zzc) -> <init>
+    void zzd() -> zzd
+    void zze() -> zze
+com.android.billingclient.api.zzq -> com.android.billingclient.api.zzq:
+com.android.billingclient.api.zzr -> com.android.billingclient.api.zzr:
+    com.android.billingclient.api.BillingClientImpl zza -> zza
+    java.lang.String zzb -> zzb
+    java.util.List zzc -> zzc
+    com.android.billingclient.api.SkuDetailsResponseListener zzd -> zzd
+    java.lang.Object call() -> call
+    void <init>(com.android.billingclient.api.BillingClientImpl,java.lang.String,java.util.List,java.lang.String,com.android.billingclient.api.SkuDetailsResponseListener) -> <init>
+com.android.billingclient.api.zzs -> com.android.billingclient.api.zzs:
+    com.android.billingclient.api.BillingClientImpl zza -> zza
+    java.lang.String zzb -> zzb
+    android.os.Bundle zzc -> zzc
+    java.lang.Object call() -> call
+    void <init>(com.android.billingclient.api.BillingClientImpl,java.lang.String,android.os.Bundle) -> <init>
+com.android.billingclient.api.zzt -> com.android.billingclient.api.zzt:
+    com.android.billingclient.api.BillingClientImpl zza -> zza
+    com.android.billingclient.api.QueryProductDetailsParams zzb -> zzb
+    com.android.billingclient.api.ProductDetailsResponseListener zzc -> zzc
+    java.lang.Object call() -> call
+    void <init>(com.android.billingclient.api.BillingClientImpl,com.android.billingclient.api.QueryProductDetailsParams,com.android.billingclient.api.ProductDetailsResponseListener) -> <init>
+com.android.billingclient.api.zzu -> com.android.billingclient.api.zzu:
+    com.android.billingclient.api.ProductDetailsResponseListener zza -> zza
+    void <init>(com.android.billingclient.api.ProductDetailsResponseListener) -> <init>
+    void run() -> run
+com.android.billingclient.api.zzv -> com.android.billingclient.api.zzv:
+    com.android.billingclient.api.BillingClientImpl zza -> zza
+    com.android.billingclient.api.ConsumeParams zzb -> zzb
+    com.android.billingclient.api.ConsumeResponseListener zzc -> zzc
+    java.lang.Object call() -> call
+    void <init>(com.android.billingclient.api.BillingClientImpl,com.android.billingclient.api.ConsumeParams,com.android.billingclient.api.ConsumeResponseListener) -> <init>
+com.android.billingclient.api.zzw -> com.android.billingclient.api.zzw:
+    com.android.billingclient.api.ConsumeResponseListener zza -> zza
+    com.android.billingclient.api.ConsumeParams zzb -> zzb
+    void <init>(com.android.billingclient.api.ConsumeResponseListener,com.android.billingclient.api.ConsumeParams) -> <init>
+    void run() -> run
+com.android.billingclient.api.zzx -> com.android.billingclient.api.zzx:
+    com.android.billingclient.api.PurchaseHistoryResponseListener zza -> zza
+    void <init>(com.android.billingclient.api.PurchaseHistoryResponseListener) -> <init>
+    void run() -> run
+com.android.billingclient.api.zzy -> com.android.billingclient.api.zzy:
+    com.android.billingclient.api.PriceChangeConfirmationListener zza -> zza
+    com.android.billingclient.api.BillingResult zzb -> zzb
+    void <init>(com.android.billingclient.api.PriceChangeConfirmationListener,com.android.billingclient.api.BillingResult) -> <init>
+    void run() -> run
+com.android.billingclient.api.zzz -> com.android.billingclient.api.zzz:
+    com.android.billingclient.api.SkuDetailsResponseListener zza -> zza
+    void <init>(com.android.billingclient.api.SkuDetailsResponseListener) -> <init>
+    void run() -> run
+com.google.android.gms.internal.play_billing.zza -> com.google.a.a.a.a.a:
+    com.google.android.gms.internal.play_billing.zza zza -> a
+    com.google.android.gms.internal.play_billing.zza zzb -> b
+    com.google.android.gms.internal.play_billing.zza zzc -> c
+    com.google.android.gms.internal.play_billing.zza zzd -> d
+    com.google.android.gms.internal.play_billing.zza zze -> e
+    com.google.android.gms.internal.play_billing.zza zzf -> f
+    com.google.android.gms.internal.play_billing.zza zzg -> g
+    com.google.android.gms.internal.play_billing.zza zzh -> h
+    com.google.android.gms.internal.play_billing.zza zzi -> i
+    com.google.android.gms.internal.play_billing.zza zzj -> j
+    com.google.android.gms.internal.play_billing.zza zzk -> k
+    com.google.android.gms.internal.play_billing.zza zzl -> l
+    com.google.android.gms.internal.play_billing.zza zzm -> m
+    com.google.android.gms.internal.play_billing.zza zzn -> n
+    com.google.android.gms.internal.play_billing.zzx zzo -> o
+    com.google.android.gms.internal.play_billing.zza[] zzp -> p
+    int zzq -> q
+    com.google.android.gms.internal.play_billing.zza zza(int) -> a
+    void <clinit>() -> <clinit>
+    void <init>(java.lang.String,int,int) -> <init>
+    com.google.android.gms.internal.play_billing.zza[] values() -> values
+com.google.android.gms.internal.play_billing.zzaa -> com.google.a.a.a.a.b:
+    com.google.android.gms.internal.play_billing.zzu zza -> a
+    java.lang.Object[] zzb -> b
+    int zzc -> c
+    int zza(java.lang.Object[],int) -> a
+    int zzb() -> a
+    int zzc() -> b
+    int size() -> size
+    java.lang.Object get(int) -> get
+    void <clinit>() -> <clinit>
+    void <init>(java.lang.Object[],int) -> <init>
+    boolean zzf() -> c
+    java.lang.Object[] zzg() -> d
+com.google.android.gms.internal.play_billing.zzab -> com.google.a.a.a.a.c:
+    com.google.android.gms.internal.play_billing.zzac zza -> a
+    int size() -> size
+    java.lang.Object get(int) -> get
+    void <init>(com.google.android.gms.internal.play_billing.zzac) -> <init>
+    boolean zzf() -> c
+com.google.android.gms.internal.play_billing.zzac -> com.google.a.a.a.a.d:
+    com.google.android.gms.internal.play_billing.zzx zza -> a
+    java.lang.Object[] zzb -> b
+    int zzc -> c
+    int zzi(com.google.android.gms.internal.play_billing.zzac) -> a
+    int zza(java.lang.Object[],int) -> a
+    int size() -> size
+    com.google.android.gms.internal.play_billing.zzu zzh() -> e
+    com.google.android.gms.internal.play_billing.zzah zze() -> f
+    java.util.Iterator iterator() -> iterator
+    void <init>(com.google.android.gms.internal.play_billing.zzx,java.lang.Object[],int,int) -> <init>
+    boolean contains(java.lang.Object) -> contains
+    boolean zzf() -> c
+    java.lang.Object[] zzj(com.google.android.gms.internal.play_billing.zzac) -> b
+com.google.android.gms.internal.play_billing.zzad -> com.google.a.a.a.a.e:
+    com.google.android.gms.internal.play_billing.zzx zza -> a
+    com.google.android.gms.internal.play_billing.zzu zzb -> b
+    int zza(java.lang.Object[],int) -> a
+    int size() -> size
+    com.google.android.gms.internal.play_billing.zzu zzd() -> g
+    com.google.android.gms.internal.play_billing.zzah zze() -> f
+    java.util.Iterator iterator() -> iterator
+    void <init>(com.google.android.gms.internal.play_billing.zzx,com.google.android.gms.internal.play_billing.zzu) -> <init>
+    boolean contains(java.lang.Object) -> contains
+    boolean zzf() -> c
+com.google.android.gms.internal.play_billing.zzae -> com.google.a.a.a.a.f:
+    java.lang.Object[] zza -> a
+    int zzb -> b
+    int zzc -> c
+    int size() -> size
+    java.lang.Object get(int) -> get
+    void <init>(java.lang.Object[],int,int) -> <init>
+    boolean zzf() -> c
+com.google.android.gms.internal.play_billing.zzaf -> com.google.a.a.a.a.g:
+    com.google.android.gms.internal.play_billing.zzx zza -> a
+    java.lang.Object zzc -> c
+    java.lang.Object[] zzb -> b
+    int zzd -> d
+    int size() -> size
+    com.google.android.gms.internal.play_billing.zzr zza() -> a
+    com.google.android.gms.internal.play_billing.zzy zzc() -> b
+    com.google.android.gms.internal.play_billing.zzy zzd() -> c
+    com.google.android.gms.internal.play_billing.zzaf zzf(int,java.lang.Object[],com.google.android.gms.internal.play_billing.zzw) -> a
+    java.lang.Object get(java.lang.Object) -> get
+    void <clinit>() -> <clinit>
+    void <init>(java.lang.Object,java.lang.Object[],int) -> <init>
+com.google.android.gms.internal.play_billing.zzag -> com.google.a.a.a.a.h:
+    int zza(java.util.Set) -> a
+com.google.android.gms.internal.play_billing.zzah -> com.google.a.a.a.a.i:
+    void <init>() -> <init>
+    void remove() -> remove
+com.google.android.gms.internal.play_billing.zzai -> com.google.a.a.a.a.j:
+    void <init>() -> <init>
+    void add(java.lang.Object) -> add
+    void set(java.lang.Object) -> set
+com.google.android.gms.internal.play_billing.zzb -> com.google.a.a.a.a.k:
+    int zza -> a
+    int zzq(android.os.Bundle,java.lang.String) -> d
+    int zza(android.content.Intent,java.lang.String) -> a
+    int zzb(android.os.Bundle,java.lang.String) -> a
+    android.os.Bundle zzc(com.android.billingclient.api.AcknowledgePurchaseParams,java.lang.String) -> a
+    android.os.Bundle zzd(com.android.billingclient.api.ConsumeParams,boolean,java.lang.String) -> a
+    android.os.Bundle zze(int,boolean,java.lang.String,java.lang.String,java.util.ArrayList) -> a
+    android.os.Bundle zzf(com.android.billingclient.api.BillingFlowParams,boolean,boolean,boolean,java.lang.String) -> a
+    android.os.Bundle zzg(java.lang.String,java.util.ArrayList,java.lang.String) -> a
+    android.os.Bundle zzh(boolean,boolean,java.lang.String) -> a
+    com.android.billingclient.api.BillingResult zzi(android.content.Intent,java.lang.String) -> b
+    com.android.billingclient.api.InAppMessageResult zzj(android.os.Bundle,java.lang.String) -> b
+    com.android.billingclient.api.Purchase zzr(java.lang.String,java.lang.String) -> c
+    java.lang.String zzk(android.os.Bundle,java.lang.String) -> c
+    java.lang.String zzl(int) -> a
+    java.util.List zzm(android.os.Bundle) -> a
+    void <clinit>() -> <clinit>
+    void zzn(java.lang.String,java.lang.String) -> a
+    void zzo(java.lang.String,java.lang.String) -> b
+    void zzp(java.lang.String,java.lang.String,java.lang.Throwable) -> a
+com.google.android.gms.internal.play_billing.zzc -> com.google.a.a.a.a.l:
+    int zza(int,java.lang.String,java.lang.String) -> a
+    int zzr(int,java.lang.String,java.lang.String) -> b
+    int zzc(int,java.lang.String,java.lang.String,android.os.Bundle) -> a
+    android.os.Bundle zzd(int,java.lang.String,java.lang.String,android.os.Bundle) -> b
+    android.os.Bundle zze(int,java.lang.String,java.lang.String,android.os.Bundle) -> c
+    android.os.Bundle zzf(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
+    android.os.Bundle zzg(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,android.os.Bundle) -> a
+    android.os.Bundle zzh(int,java.lang.String,java.lang.String,java.lang.String,android.os.Bundle) -> a
+    android.os.Bundle zzi(int,java.lang.String,java.lang.String,java.lang.String) -> a
+    android.os.Bundle zzj(int,java.lang.String,java.lang.String,java.lang.String,android.os.Bundle) -> b
+    android.os.Bundle zzk(int,java.lang.String,java.lang.String,android.os.Bundle) -> d
+    android.os.Bundle zzl(int,java.lang.String,java.lang.String,android.os.Bundle,android.os.Bundle) -> a
+    android.os.Bundle zzm(int,java.lang.String,java.lang.String,java.lang.String,android.os.Bundle) -> c
+    void <init>(android.os.IBinder) -> <init>
+    void zzn(int,java.lang.String,android.os.Bundle,com.google.android.gms.internal.play_billing.zzg) -> a
+com.google.android.gms.internal.play_billing.zzd -> com.google.a.a.a.a.m:
+    com.google.android.gms.internal.play_billing.zze zzo(android.os.IBinder) -> a
+com.google.android.gms.internal.play_billing.zze -> com.google.a.a.a.a.n:
+    int zza(int,java.lang.String,java.lang.String) -> a
+    int zzr(int,java.lang.String,java.lang.String) -> b
+    int zzc(int,java.lang.String,java.lang.String,android.os.Bundle) -> a
+    android.os.Bundle zzd(int,java.lang.String,java.lang.String,android.os.Bundle) -> b
+    android.os.Bundle zze(int,java.lang.String,java.lang.String,android.os.Bundle) -> c
+    android.os.Bundle zzf(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
+    android.os.Bundle zzg(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,android.os.Bundle) -> a
+    android.os.Bundle zzh(int,java.lang.String,java.lang.String,java.lang.String,android.os.Bundle) -> a
+    android.os.Bundle zzi(int,java.lang.String,java.lang.String,java.lang.String) -> a
+    android.os.Bundle zzj(int,java.lang.String,java.lang.String,java.lang.String,android.os.Bundle) -> b
+    android.os.Bundle zzk(int,java.lang.String,java.lang.String,android.os.Bundle) -> d
+    android.os.Bundle zzl(int,java.lang.String,java.lang.String,android.os.Bundle,android.os.Bundle) -> a
+    android.os.Bundle zzm(int,java.lang.String,java.lang.String,java.lang.String,android.os.Bundle) -> c
+    void zzn(int,java.lang.String,android.os.Bundle,com.google.android.gms.internal.play_billing.zzg) -> a
+com.google.android.gms.internal.play_billing.zzf -> com.google.a.a.a.a.o:
+    void <init>() -> <init>
+    boolean zzb(int,android.os.Parcel,android.os.Parcel,int) -> zzb
+com.google.android.gms.internal.play_billing.zzg -> com.google.a.a.a.a.p:
+    void zza(android.os.Bundle) -> zza
+com.google.android.gms.internal.play_billing.zzh -> com.google.a.a.a.a.q:
+    android.os.IBinder zza -> a
+    java.lang.String zzb -> b
+    android.os.IBinder asBinder() -> asBinder
+    android.os.Parcel zzo() -> a
+    android.os.Parcel zzp(int,android.os.Parcel) -> a
+    void <init>(android.os.IBinder,java.lang.String) -> <init>
+    void zzq(int,android.os.Parcel) -> b
+com.google.android.gms.internal.play_billing.zzi -> com.google.a.a.a.a.r:
+    android.os.IBinder asBinder() -> asBinder
+    void <init>(java.lang.String) -> <init>
+    boolean zzb(int,android.os.Parcel,android.os.Parcel,int) -> zzb
+    boolean onTransact(int,android.os.Parcel,android.os.Parcel,int) -> onTransact
+com.google.android.gms.internal.play_billing.zzj -> com.google.a.a.a.a.s:
+    java.lang.ClassLoader zza -> a
+    android.os.Parcelable zza(android.os.Parcel,android.os.Parcelable$Creator) -> a
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    void zzb(android.os.Parcel) -> a
+    void zzc(android.os.Parcel,android.os.Parcelable) -> a
+    void zzd(android.os.Parcel,android.os.IInterface) -> a
+com.google.android.gms.internal.play_billing.zzk -> com.google.a.a.a.a.t:
+com.google.android.gms.internal.play_billing.zzl -> com.google.a.a.a.a.u:
+    boolean zza(java.lang.Object,java.lang.Object) -> a
+com.google.android.gms.internal.play_billing.zzm -> com.google.a.a.a.a.v:
+    int zza(int,int,java.lang.String) -> a
+    int zzb(int,int,java.lang.String) -> b
+    java.lang.Object zzc(java.lang.Object,java.lang.Object) -> a
+    java.lang.String zze(int,int,java.lang.String) -> c
+    void zzd(int,int,int) -> a
+com.google.android.gms.internal.play_billing.zzn -> com.google.a.a.a.a.w:
+    java.lang.String zza(java.lang.String,java.lang.Object[]) -> a
+com.google.android.gms.internal.play_billing.zzo -> com.google.a.a.a.a.x:
+    int zza -> a
+    int zzb -> b
+    int nextIndex() -> nextIndex
+    int previousIndex() -> previousIndex
+    java.lang.Object zza(int) -> a
+    java.lang.Object next() -> next
+    java.lang.Object previous() -> previous
+    void <init>(int,int) -> <init>
+    boolean hasNext() -> hasNext
+    boolean hasPrevious() -> hasPrevious
+com.google.android.gms.internal.play_billing.zzp -> com.google.a.a.a.a.y:
+    void zza(java.lang.Object,java.lang.Object) -> a
+com.google.android.gms.internal.play_billing.zzq -> com.google.a.a.a.a.z:
+    int zza(int) -> a
+com.google.android.gms.internal.play_billing.zzr -> com.google.a.a.a.a.aa:
+    java.lang.Object[] zza -> a
+    int zza(java.lang.Object[],int) -> a
+    int zzb() -> a
+    int zzc() -> b
+    com.google.android.gms.internal.play_billing.zzu zzd() -> g
+    com.google.android.gms.internal.play_billing.zzah zze() -> f
+    java.util.Iterator iterator() -> iterator
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    void clear() -> clear
+    boolean add(java.lang.Object) -> add
+    boolean addAll(java.util.Collection) -> addAll
+    boolean contains(java.lang.Object) -> contains
+    boolean zzf() -> c
+    boolean remove(java.lang.Object) -> remove
+    boolean removeAll(java.util.Collection) -> removeAll
+    boolean retainAll(java.util.Collection) -> retainAll
+    java.lang.Object[] zzg() -> d
+    java.lang.Object[] toArray() -> toArray
+    java.lang.Object[] toArray(java.lang.Object[]) -> toArray
+com.google.android.gms.internal.play_billing.zzs -> com.google.a.a.a.a.ab:
+    com.google.android.gms.internal.play_billing.zzu zza -> a
+    java.lang.Object zza(int) -> a
+    void <init>(com.google.android.gms.internal.play_billing.zzu,int) -> <init>
+com.google.android.gms.internal.play_billing.zzt -> com.google.a.a.a.a.ac:
+    int zza -> a
+    int zzb -> b
+    com.google.android.gms.internal.play_billing.zzu zzc -> c
+    int zzb() -> a
+    int zzc() -> b
+    int size() -> size
+    com.google.android.gms.internal.play_billing.zzu zzh(int,int) -> a
+    java.lang.Object get(int) -> get
+    java.util.List subList(int,int) -> subList
+    void <init>(com.google.android.gms.internal.play_billing.zzu,int,int) -> <init>
+    boolean zzf() -> c
+    java.lang.Object[] zzg() -> d
+com.google.android.gms.internal.play_billing.zzu -> com.google.a.a.a.a.ad:
+    com.google.android.gms.internal.play_billing.zzai zza -> a
+    int zza(java.lang.Object[],int) -> a
+    int hashCode() -> hashCode
+    int indexOf(java.lang.Object) -> indexOf
+    int lastIndexOf(java.lang.Object) -> lastIndexOf
+    com.google.android.gms.internal.play_billing.zzu zzi(java.lang.Object[]) -> a
+    com.google.android.gms.internal.play_billing.zzu zzj(java.lang.Object[],int) -> b
+    com.google.android.gms.internal.play_billing.zzu zzd() -> g
+    com.google.android.gms.internal.play_billing.zzu zzk(java.util.Collection) -> a
+    com.google.android.gms.internal.play_billing.zzu zzl() -> e
+    com.google.android.gms.internal.play_billing.zzu zzh(int,int) -> a
+    com.google.android.gms.internal.play_billing.zzah zze() -> f
+    com.google.android.gms.internal.play_billing.zzai zzm(int) -> a
+    java.lang.Object remove(int) -> remove
+    java.lang.Object set(int,java.lang.Object) -> set
+    java.util.Iterator iterator() -> iterator
+    java.util.List subList(int,int) -> subList
+    java.util.ListIterator listIterator() -> listIterator
+    java.util.ListIterator listIterator(int) -> listIterator
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    void add(int,java.lang.Object) -> add
+    boolean addAll(int,java.util.Collection) -> addAll
+    boolean contains(java.lang.Object) -> contains
+    boolean equals(java.lang.Object) -> equals
+com.google.android.gms.internal.play_billing.zzv -> com.google.a.a.a.a.ae:
+    java.lang.Object zza -> a
+    java.lang.Object zzb -> b
+    java.lang.Object zzc -> c
+    java.lang.IllegalArgumentException zza() -> a
+    void <init>(java.lang.Object,java.lang.Object,java.lang.Object) -> <init>
+com.google.android.gms.internal.play_billing.zzw -> com.google.a.a.a.a.af:
+    java.lang.Object[] zza -> a
+    int zzb -> b
+    com.google.android.gms.internal.play_billing.zzv zzc -> c
+    com.google.android.gms.internal.play_billing.zzw zza(java.lang.Object,java.lang.Object) -> a
+    com.google.android.gms.internal.play_billing.zzx zzb() -> a
+    void <init>() -> <init>
+com.google.android.gms.internal.play_billing.zzx -> com.google.a.a.a.a.ag:
+    com.google.android.gms.internal.play_billing.zzy zza -> a
+    com.google.android.gms.internal.play_billing.zzy zzb -> b
+    com.google.android.gms.internal.play_billing.zzr zzc -> c
+    int hashCode() -> hashCode
+    com.google.android.gms.internal.play_billing.zzr zza() -> a
+    com.google.android.gms.internal.play_billing.zzr zzb() -> d
+    com.google.android.gms.internal.play_billing.zzy zzc() -> b
+    com.google.android.gms.internal.play_billing.zzy zzd() -> c
+    com.google.android.gms.internal.play_billing.zzy zze() -> e
+    java.lang.Object get(java.lang.Object) -> get
+    java.lang.Object getOrDefault(java.lang.Object,java.lang.Object) -> getOrDefault
+    java.lang.Object put(java.lang.Object,java.lang.Object) -> put
+    java.lang.Object remove(java.lang.Object) -> remove
+    java.lang.String toString() -> toString
+    java.util.Collection values() -> values
+    java.util.Set entrySet() -> entrySet
+    java.util.Set keySet() -> keySet
+    void <init>() -> <init>
+    void clear() -> clear
+    void putAll(java.util.Map) -> putAll
+    boolean containsKey(java.lang.Object) -> containsKey
+    boolean containsValue(java.lang.Object) -> containsValue
+    boolean equals(java.lang.Object) -> equals
+    boolean isEmpty() -> isEmpty
+com.google.android.gms.internal.play_billing.zzy -> com.google.a.a.a.a.ah:
+    com.google.android.gms.internal.play_billing.zzu zza -> a
+    int hashCode() -> hashCode
+    com.google.android.gms.internal.play_billing.zzu zzd() -> g
+    com.google.android.gms.internal.play_billing.zzu zzh() -> e
+    com.google.android.gms.internal.play_billing.zzah zze() -> f
+    java.util.Iterator iterator() -> iterator
+    void <init>() -> <init>
+    boolean equals(java.lang.Object) -> equals
+com.google.android.gms.internal.play_billing.zzz -> com.google.a.a.a.a.ai:
+    java.lang.Object zza(java.lang.Iterable,java.lang.Object) -> a
+com.google.androidgamesdk.ChoreographerCallback -> com.google.androidgamesdk.ChoreographerCallback:
+    java.lang.String LOG_TAG -> LOG_TAG
+    long mCookie -> mCookie
+    com.google.androidgamesdk.ChoreographerCallback$a mLooper -> mLooper
+    void <init>(long) -> <init>
+    void postFrameCallback() -> postFrameCallback
+    void postFrameCallbackDelayed(long) -> postFrameCallbackDelayed
+    void terminate() -> terminate
+    void doFrame(long) -> doFrame
+    void nOnChoreographer(long,long) -> nOnChoreographer
+com.google.androidgamesdk.ChoreographerCallback$1 -> com.google.androidgamesdk.ChoreographerCallback$1:
+    com.google.androidgamesdk.ChoreographerCallback a -> a
+    void <init>(com.google.androidgamesdk.ChoreographerCallback) -> <init>
+    void run() -> run
+com.google.androidgamesdk.ChoreographerCallback$a -> com.google.androidgamesdk.ChoreographerCallback$a:
+    android.os.Handler a -> a
+    com.google.androidgamesdk.ChoreographerCallback b -> b
+    void <init>(com.google.androidgamesdk.ChoreographerCallback) -> <init>
+    void run() -> run
+    void <init>(com.google.androidgamesdk.ChoreographerCallback,byte) -> <init>
+com.google.androidgamesdk.SwappyDisplayManager -> com.google.androidgamesdk.SwappyDisplayManager:
+    java.lang.String LOG_TAG -> LOG_TAG
+    boolean DEBUG -> DEBUG
+    long ONE_MS_IN_NS -> ONE_MS_IN_NS
+    long ONE_S_IN_NS -> ONE_S_IN_NS
+    long mCookie -> mCookie
+    android.app.Activity mActivity -> mActivity
+    android.view.WindowManager mWindowManager -> mWindowManager
+    android.view.Display$Mode mCurrentMode -> mCurrentMode
+    com.google.androidgamesdk.SwappyDisplayManager$a mLooper -> mLooper
+    boolean modeMatchesCurrentResolution(android.view.Display$Mode) -> modeMatchesCurrentResolution
+    void <init>(long,android.app.Activity) -> <init>
+    void updateSupportedRefreshRates(android.view.Display) -> updateSupportedRefreshRates
+    void setPreferredDisplayModeId(int) -> setPreferredDisplayModeId
+    void terminate() -> terminate
+    void onDisplayAdded(int) -> onDisplayAdded
+    void onDisplayRemoved(int) -> onDisplayRemoved
+    void onDisplayChanged(int) -> onDisplayChanged
+    void nSetSupportedRefreshPeriods(long,long[],int[]) -> nSetSupportedRefreshPeriods
+    void nOnRefreshPeriodChanged(long,long,long,long) -> nOnRefreshPeriodChanged
+    android.app.Activity access$100(com.google.androidgamesdk.SwappyDisplayManager) -> access$100
+com.google.androidgamesdk.SwappyDisplayManager$1 -> com.google.androidgamesdk.SwappyDisplayManager$1:
+    int a -> a
+    com.google.androidgamesdk.SwappyDisplayManager b -> b
+    void <init>(com.google.androidgamesdk.SwappyDisplayManager,int) -> <init>
+    void run() -> run
+com.google.androidgamesdk.SwappyDisplayManager$a -> com.google.androidgamesdk.SwappyDisplayManager$a:
+    android.os.Handler a -> a
+    java.util.concurrent.locks.Lock c -> c
+    java.util.concurrent.locks.Condition d -> d
+    com.google.androidgamesdk.SwappyDisplayManager b -> b
+    void <init>(com.google.androidgamesdk.SwappyDisplayManager) -> <init>
+    void start() -> start
+    void run() -> run
+    void <init>(com.google.androidgamesdk.SwappyDisplayManager,byte) -> <init>
+com.unity3d.player.AudioVolumeHandler -> com.unity3d.player.AudioVolumeHandler:
+    com.unity3d.player.b a -> a
+    void onAudioVolumeChanged(int) -> onAudioVolumeChanged
+    void <init>(android.content.Context) -> <init>
+    void a() -> a
+com.unity3d.player.BuildConfig -> com.unity3d.player.BuildConfig:
+    boolean DEBUG -> DEBUG
+    java.lang.String LIBRARY_PACKAGE_NAME -> LIBRARY_PACKAGE_NAME
+    java.lang.String BUILD_TYPE -> BUILD_TYPE
+    int VERSION_CODE -> VERSION_CODE
+    java.lang.String VERSION_NAME -> VERSION_NAME
+    void <init>() -> <init>
+com.unity3d.player.Camera2Wrapper -> com.unity3d.player.Camera2Wrapper:
+    android.content.Context a -> a
+    com.unity3d.player.c b -> b
+    int c -> c
+    void <init>(android.content.Context) -> <init>
+    void a() -> a
+    void initCamera2Jni() -> initCamera2Jni
+    void deinitCamera2Jni() -> deinitCamera2Jni
+    void nativeFrameReady(java.lang.Object,java.lang.Object,java.lang.Object,int,int,int) -> nativeFrameReady
+    void nativeSurfaceTextureReady(java.lang.Object) -> nativeSurfaceTextureReady
+    int getCamera2Count() -> getCamera2Count
+    int getCamera2SensorOrientation(int) -> getCamera2SensorOrientation
+    boolean isCamera2FrontFacing(int) -> isCamera2FrontFacing
+    int getCamera2FocalLengthEquivalent(int) -> getCamera2FocalLengthEquivalent
+    int[] getCamera2Resolutions(int) -> getCamera2Resolutions
+    boolean initializeCamera2(int,int,int,int,int) -> initializeCamera2
+    boolean isCamera2AutoFocusPointSupported(int) -> isCamera2AutoFocusPointSupported
+    boolean setAutoFocusPoint(float,float) -> setAutoFocusPoint
+    android.graphics.Rect getFrameSizeCamera2() -> getFrameSizeCamera2
+    void closeCamera2() -> closeCamera2
+    void startCamera2() -> startCamera2
+    void pauseCamera2() -> pauseCamera2
+    void stopCamera2() -> stopCamera2
+    int a(float) -> a
+    java.lang.Object getCameraFocusArea(float,float) -> getCameraFocusArea
+    void a(java.lang.Object,java.lang.Object,java.lang.Object,int,int,int) -> a
+    void a(java.lang.Object) -> a
+com.unity3d.player.GoogleARCoreApi -> com.unity3d.player.GoogleARCoreApi:
+    void <init>() -> <init>
+    void initializeARCore(android.app.Activity) -> initializeARCore
+    void pauseARCore() -> pauseARCore
+    void resumeARCore() -> resumeARCore
+com.unity3d.player.HFPStatus -> com.unity3d.player.HFPStatus:
+    android.content.Context a -> a
+    android.content.BroadcastReceiver b -> b
+    android.content.Intent c -> c
+    boolean d -> d
+    android.media.AudioManager e -> e
+    boolean f -> f
+    int g -> g
+    void initHFPStatusJni() -> initHFPStatusJni
+    void deinitHFPStatusJni() -> deinitHFPStatusJni
+    void <init>(android.content.Context) -> <init>
+    void a() -> a
+    void requestHFPStat() -> requestHFPStat
+    boolean getHFPStat() -> getHFPStat
+    void clearHFPStat() -> clearHFPStat
+    void setHFPRecordingStat(boolean) -> setHFPRecordingStat
+    void b() -> b
+    void c() -> c
+    int a(com.unity3d.player.HFPStatus,int) -> a
+    void a(com.unity3d.player.HFPStatus) -> a
+    boolean b(com.unity3d.player.HFPStatus) -> b
+    android.media.AudioManager c(com.unity3d.player.HFPStatus) -> c
+com.unity3d.player.HFPStatus$1 -> com.unity3d.player.HFPStatus$1:
+    com.unity3d.player.HFPStatus a -> a
+    void <init>(com.unity3d.player.HFPStatus) -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.unity3d.player.HFPStatus$a -> com.unity3d.player.HFPStatus$a:
+    int a -> a
+    int b -> b
+    int[] c -> c
+    void <clinit>() -> <clinit>
+com.unity3d.player.IAssetPackManagerDownloadStatusCallback -> com.unity3d.player.IAssetPackManagerDownloadStatusCallback:
+    void onStatusUpdate(java.lang.String,int,long,long,int,int) -> onStatusUpdate
+com.unity3d.player.IAssetPackManagerMobileDataConfirmationCallback -> com.unity3d.player.IAssetPackManagerMobileDataConfirmationCallback:
+    void onMobileDataConfirmationResult(boolean) -> onMobileDataConfirmationResult
+com.unity3d.player.IAssetPackManagerStatusQueryCallback -> com.unity3d.player.IAssetPackManagerStatusQueryCallback:
+    void onStatusResult(long,java.lang.String[],int[],int[]) -> onStatusResult
+com.unity3d.player.IPermissionRequestCallbacks -> com.unity3d.player.IPermissionRequestCallbacks:
+    void onPermissionGranted(java.lang.String) -> onPermissionGranted
+    void onPermissionDenied(java.lang.String) -> onPermissionDenied
+    void onPermissionDeniedAndDontAskAgain(java.lang.String) -> onPermissionDeniedAndDontAskAgain
+com.unity3d.player.IUnityPlayerLifecycleEvents -> com.unity3d.player.IUnityPlayerLifecycleEvents:
+    void onUnityPlayerUnloaded() -> onUnityPlayerUnloaded
+    void onUnityPlayerQuitted() -> onUnityPlayerQuitted
+com.unity3d.player.MultiWindowSupport -> com.unity3d.player.MultiWindowSupport:
+    java.lang.String RESIZABLE_WINDOW -> RESIZABLE_WINDOW
+    boolean s_LastMultiWindowMode -> s_LastMultiWindowMode
+    void <init>() -> <init>
+    boolean isInMultiWindowMode(android.app.Activity) -> isInMultiWindowMode
+    boolean getAllowResizableWindow(android.app.Activity) -> getAllowResizableWindow
+    void saveMultiWindowMode(android.app.Activity) -> saveMultiWindowMode
+    boolean isMultiWindowModeChangedToTrue(android.app.Activity) -> isMultiWindowModeChangedToTrue
+    void <clinit>() -> <clinit>
+com.unity3d.player.NativeLoader -> com.unity3d.player.NativeLoader:
+    boolean load(java.lang.String) -> load
+    boolean unload() -> unload
+com.unity3d.player.NetworkConnectivity -> com.unity3d.player.NetworkConnectivity:
+    int a -> a
+    int b -> b
+    int c -> c
+    int d -> d
+    android.net.ConnectivityManager e -> e
+    android.net.ConnectivityManager$NetworkCallback f -> f
+    int a() -> a
+    void <init>(android.content.Context) -> <init>
+    void b() -> b
+    int a(com.unity3d.player.NetworkConnectivity,int) -> a
+com.unity3d.player.NetworkConnectivity$1 -> com.unity3d.player.NetworkConnectivity$1:
+    com.unity3d.player.NetworkConnectivity a -> a
+    void <init>(com.unity3d.player.NetworkConnectivity) -> <init>
+    void onAvailable(android.net.Network) -> onAvailable
+    void onCapabilitiesChanged(android.net.Network,android.net.NetworkCapabilities) -> onCapabilitiesChanged
+    void onUnavailable() -> onUnavailable
+    void onLost(android.net.Network) -> onLost
+com.unity3d.player.OrientationLockListener -> com.unity3d.player.OrientationLockListener:
+    com.unity3d.player.k a -> a
+    android.content.Context b -> b
+    void nativeUpdateOrientationLockState(int) -> nativeUpdateOrientationLockState
+    void <init>(android.content.Context) -> <init>
+    void a() -> a
+    void b() -> b
+com.unity3d.player.PlatformSupport -> com.unity3d.player.PlatformSupport:
+    boolean MARSHMALLOW_SUPPORT -> MARSHMALLOW_SUPPORT
+    boolean NOUGAT_SUPPORT -> NOUGAT_SUPPORT
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+com.unity3d.player.PlayAssetDeliveryUnityWrapper -> com.unity3d.player.PlayAssetDeliveryUnityWrapper:
+    com.unity3d.player.PlayAssetDeliveryUnityWrapper a -> a
+    com.unity3d.player.d b -> b
+    void <init>(android.content.Context) -> <init>
+    com.unity3d.player.PlayAssetDeliveryUnityWrapper getInstance() -> getInstance
+    com.unity3d.player.PlayAssetDeliveryUnityWrapper init(android.content.Context) -> init
+    com.unity3d.player.d a(android.content.Context) -> a
+    void getAssetPackState(java.lang.String,com.unity3d.player.IAssetPackManagerStatusQueryCallback) -> getAssetPackState
+    void getAssetPackStates(java.lang.String[],com.unity3d.player.IAssetPackManagerStatusQueryCallback) -> getAssetPackStates
+    void downloadAssetPack(java.lang.String,com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> downloadAssetPack
+    void downloadAssetPacks(java.lang.String[],com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> downloadAssetPacks
+    java.lang.Object registerDownloadStatusListener(com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> registerDownloadStatusListener
+    void unregisterDownloadStatusListener(java.lang.Object) -> unregisterDownloadStatusListener
+    void requestToUseMobileData(android.app.Activity,com.unity3d.player.IAssetPackManagerMobileDataConfirmationCallback) -> requestToUseMobileData
+    java.lang.String getAssetPackPath(java.lang.String) -> getAssetPackPath
+    void cancelAssetPackDownload(java.lang.String) -> cancelAssetPackDownload
+    void cancelAssetPackDownloads(java.lang.String[]) -> cancelAssetPackDownloads
+    void removeAssetPack(java.lang.String) -> removeAssetPack
+    boolean playCoreApiMissing() -> playCoreApiMissing
+    void a() -> a
+com.unity3d.player.R -> com.unity3d.player.R:
+    void <init>() -> <init>
+com.unity3d.player.R$id -> com.unity3d.player.R$id:
+    int unitySurfaceView -> unitySurfaceView
+    void <init>() -> <init>
+com.unity3d.player.R$string -> com.unity3d.player.R$string:
+    int FreeformWindowOrientation_landscape -> FreeformWindowOrientation_landscape
+    int FreeformWindowOrientation_portrait -> FreeformWindowOrientation_portrait
+    int FreeformWindowSize_maximize -> FreeformWindowSize_maximize
+    int FreeformWindowSize_phone -> FreeformWindowSize_phone
+    int FreeformWindowSize_tablet -> FreeformWindowSize_tablet
+    void <init>() -> <init>
+com.unity3d.player.R$style -> com.unity3d.player.R$style:
+    int BaseUnityTheme -> BaseUnityTheme
+    int UnityThemeSelector -> UnityThemeSelector
+    int UnityThemeSelector_Translucent -> UnityThemeSelector_Translucent
+    void <init>() -> <init>
+com.unity3d.player.ReflectionHelper -> com.unity3d.player.ReflectionHelper:
+    boolean LOG -> LOG
+    boolean LOGV -> LOGV
+    com.unity3d.player.ReflectionHelper$a[] a -> a
+    long b -> b
+    long c -> c
+    boolean d -> d
+    void <init>() -> <init>
+    boolean a(com.unity3d.player.ReflectionHelper$a) -> a
+    void a(com.unity3d.player.ReflectionHelper$a,java.lang.reflect.Member) -> a
+    java.lang.reflect.Constructor getConstructorID(java.lang.Class,java.lang.String) -> getConstructorID
+    java.lang.reflect.Method getMethodID(java.lang.Class,java.lang.String,java.lang.String,boolean) -> getMethodID
+    java.lang.reflect.Field getFieldID(java.lang.Class,java.lang.String,java.lang.String,boolean) -> getFieldID
+    java.lang.String getFieldSignature(java.lang.reflect.Field) -> getFieldSignature
+    float a(java.lang.Class,java.lang.Class) -> a
+    float a(java.lang.Class,java.lang.Class[],java.lang.Class[]) -> a
+    java.lang.Class[] a(java.lang.String) -> a
+    java.lang.Class a(java.lang.String,int[]) -> a
+    java.lang.Object nativeProxyInvoke(long,java.lang.String,java.lang.Object[]) -> nativeProxyInvoke
+    void nativeProxyFinalize(long) -> nativeProxyFinalize
+    void nativeProxyLogJNIInvokeException(long) -> nativeProxyLogJNIInvokeException
+    boolean beginProxyCall(long) -> beginProxyCall
+    void endProxyCall() -> endProxyCall
+    void endUnityLaunch() -> endUnityLaunch
+    java.lang.Object newProxyInstance(com.unity3d.player.UnityPlayer,long,java.lang.Class) -> newProxyInstance
+    void setNativeExceptionOnProxy(java.lang.Object,long,boolean) -> setNativeExceptionOnProxy
+    java.lang.Object newProxyInstance(com.unity3d.player.UnityPlayer,long,java.lang.Class[]) -> newProxyInstance
+    long a() -> a
+    void a(long) -> a
+    java.lang.Object a(long,java.lang.String,java.lang.Object[]) -> a
+    void b(long) -> b
+    void <clinit>() -> <clinit>
+com.unity3d.player.ReflectionHelper$1 -> com.unity3d.player.ReflectionHelper$1:
+    java.lang.Runnable d -> d
+    com.unity3d.player.UnityPlayer e -> e
+    long f -> f
+    long g -> g
+    boolean h -> h
+    long a -> a
+    com.unity3d.player.UnityPlayer b -> b
+    java.lang.Class[] c -> c
+    void <init>(long,com.unity3d.player.UnityPlayer,java.lang.Class[]) -> <init>
+    java.lang.Object a(java.lang.Object,java.lang.reflect.Method,java.lang.Object[]) -> a
+    java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[]) -> invoke
+    void a(long,boolean) -> a
+    void finalize() -> finalize
+com.unity3d.player.ReflectionHelper$a -> com.unity3d.player.ReflectionHelper$a:
+    java.lang.Class b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    int e -> e
+    java.lang.reflect.Member a -> a
+    void <init>(java.lang.Class,java.lang.String,java.lang.String) -> <init>
+    int hashCode() -> hashCode
+    boolean equals(java.lang.Object) -> equals
+com.unity3d.player.ReflectionHelper$b -> com.unity3d.player.ReflectionHelper$b:
+    long a -> a
+    long b -> b
+    void <init>(long,long) -> <init>
+    void run() -> run
+com.unity3d.player.ReflectionHelper$c -> com.unity3d.player.ReflectionHelper$c:
+    void a(long,boolean) -> a
+com.unity3d.player.UnityCoreAssetPacksStatusCallbacks -> com.unity3d.player.UnityCoreAssetPacksStatusCallbacks:
+    void <init>() -> <init>
+    void nativeStatusQueryResult(java.lang.String,int,int) -> nativeStatusQueryResult
+    void onStatusResult(long,java.lang.String[],int[],int[]) -> onStatusResult
+    void onStatusUpdate(java.lang.String,int,long,long,int,int) -> onStatusUpdate
+com.unity3d.player.UnityPermissions -> com.unity3d.player.UnityPermissions:
+    java.lang.String SKIP_DIALOG_METADATA_NAME -> SKIP_DIALOG_METADATA_NAME
+    void <init>() -> <init>
+    boolean checkInfoForMetadata(android.content.pm.PackageItemInfo) -> checkInfoForMetadata
+    boolean skipPermissionsDialog(android.app.Activity) -> skipPermissionsDialog
+    boolean hasUserAuthorizedPermission(android.app.Activity,java.lang.String) -> hasUserAuthorizedPermission
+    void requestUserPermissions(android.app.Activity,java.lang.String[],com.unity3d.player.IPermissionRequestCallbacks) -> requestUserPermissions
+com.unity3d.player.UnityPermissions$ModalWaitForPermissionResponse -> com.unity3d.player.UnityPermissions$ModalWaitForPermissionResponse:
+    boolean haveResponse -> haveResponse
+    void <init>() -> <init>
+    void onPermissionGranted(java.lang.String) -> onPermissionGranted
+    void onPermissionDenied(java.lang.String) -> onPermissionDenied
+    void onPermissionDeniedAndDontAskAgain(java.lang.String) -> onPermissionDeniedAndDontAskAgain
+    void waitForResponse() -> waitForResponse
+com.unity3d.player.UnityPlayer -> com.unity3d.player.UnityPlayer:
+    android.os.Handler mHandler -> mHandler
+    android.app.Activity currentActivity -> currentActivity
+    int mInitialScreenOrientation -> mInitialScreenOrientation
+    boolean mMainDisplayOverride -> mMainDisplayOverride
+    boolean mIsFullscreen -> mIsFullscreen
+    com.unity3d.player.m mState -> mState
+    java.util.concurrent.ConcurrentLinkedQueue m_Events -> m_Events
+    android.content.BroadcastReceiver mKillingIsMyBusiness -> mKillingIsMyBusiness
+    android.view.OrientationEventListener mOrientationListener -> mOrientationListener
+    int mNaturalOrientation -> mNaturalOrientation
+    int ANR_TIMEOUT_SECONDS -> ANR_TIMEOUT_SECONDS
+    int RUN_STATE_CHANGED_MSG_CODE -> RUN_STATE_CHANGED_MSG_CODE
+    com.unity3d.player.UnityPlayer$e m_MainThread -> m_MainThread
+    boolean m_AddPhoneCallListener -> m_AddPhoneCallListener
+    com.unity3d.player.UnityPlayer$c m_PhoneCallListener -> m_PhoneCallListener
+    android.telephony.TelephonyManager m_TelephonyManager -> m_TelephonyManager
+    android.content.ClipboardManager m_ClipboardManager -> m_ClipboardManager
+    com.unity3d.player.j m_SplashScreen -> m_SplashScreen
+    com.unity3d.player.h m_PersistentUnitySurface -> m_PersistentUnitySurface
+    com.unity3d.player.GoogleARCoreApi m_ARCoreApi -> m_ARCoreApi
+    com.unity3d.player.UnityPlayer$a m_FakeListener -> m_FakeListener
+    com.unity3d.player.Camera2Wrapper m_Camera2Wrapper -> m_Camera2Wrapper
+    com.unity3d.player.HFPStatus m_HFPStatus -> m_HFPStatus
+    com.unity3d.player.AudioVolumeHandler m_AudioVolumeHandler -> m_AudioVolumeHandler
+    com.unity3d.player.OrientationLockListener m_OrientationLockListener -> m_OrientationLockListener
+    android.net.Uri m_launchUri -> m_launchUri
+    com.unity3d.player.NetworkConnectivity m_NetworkConnectivity -> m_NetworkConnectivity
+    com.unity3d.player.IUnityPlayerLifecycleEvents m_UnityPlayerLifecycleEvents -> m_UnityPlayerLifecycleEvents
+    android.content.Context mContext -> mContext
+    android.app.Activity mActivity -> mActivity
+    android.view.SurfaceView mGlView -> mGlView
+    boolean mQuitting -> mQuitting
+    boolean mProcessKillRequested -> mProcessKillRequested
+    com.unity3d.player.o mVideoPlayerProxy -> mVideoPlayerProxy
+    com.unity3d.player.i mSoftInputDialog -> mSoftInputDialog
+    java.lang.String SPLASH_ENABLE_METADATA_NAME -> SPLASH_ENABLE_METADATA_NAME
+    java.lang.String SPLASH_MODE_METADATA_NAME -> SPLASH_MODE_METADATA_NAME
+    java.lang.String LAUNCH_FULLSCREEN -> LAUNCH_FULLSCREEN
+    java.lang.String ARCORE_ENABLE_METADATA_NAME -> ARCORE_ENABLE_METADATA_NAME
+    java.lang.String AUTO_REPORT_FULLY_DRAWN_ENABLE_METADATA_NAME -> AUTO_REPORT_FULLY_DRAWN_ENABLE_METADATA_NAME
+    void <init>(android.content.Context) -> <init>
+    void <init>(android.content.Context,com.unity3d.player.IUnityPlayerLifecycleEvents) -> <init>
+    int getNaturalOrientation(int) -> getNaturalOrientation
+    void onUnityPlayerUnloaded() -> onUnityPlayerUnloaded
+    void onUnityPlayerQuitted() -> onUnityPlayerQuitted
+    void toggleGyroscopeSensor(boolean) -> toggleGyroscopeSensor
+    java.lang.String GetGlViewContentDescription(android.content.Context) -> GetGlViewContentDescription
+    void DisableStaticSplashScreen() -> DisableStaticSplashScreen
+    void EarlyEnableFullScreenIfEnabled() -> EarlyEnableFullScreenIfEnabled
+    boolean IsWindowTranslucent() -> IsWindowTranslucent
+    android.view.SurfaceView CreateGlView() -> CreateGlView
+    void sendSurfaceChangedEvent() -> sendSurfaceChangedEvent
+    void updateGLDisplay(int,android.view.Surface) -> updateGLDisplay
+    boolean updateDisplayInternal(int,android.view.Surface) -> updateDisplayInternal
+    boolean displayChanged(int,android.view.Surface) -> displayChanged
+    void UnitySendMessage(java.lang.String,java.lang.String,java.lang.String) -> UnitySendMessage
+    void nativeUnitySendMessage(java.lang.String,java.lang.String,byte[]) -> nativeUnitySendMessage
+    void finish() -> finish
+    void runOnAnonymousThread(java.lang.Runnable) -> runOnAnonymousThread
+    void runOnUiThread(java.lang.Runnable) -> runOnUiThread
+    void postOnUiThread(java.lang.Runnable) -> postOnUiThread
+    void init(int,boolean) -> init
+    android.view.View getView() -> getView
+    android.os.Bundle getSettings() -> getSettings
+    void quit() -> quit
+    void newIntent(android.content.Intent) -> newIntent
+    void destroy() -> destroy
+    void kill() -> kill
+    void pause() -> pause
+    void pauseUnity() -> pauseUnity
+    void resume() -> resume
+    void lowMemory() -> lowMemory
+    void shutdown() -> shutdown
+    void unload() -> unload
+    void checkResumePlayer() -> checkResumePlayer
+    boolean skipPermissionsDialog() -> skipPermissionsDialog
+    void requestUserAuthorization(java.lang.String) -> requestUserAuthorization
+    int getNetworkConnectivity() -> getNetworkConnectivity
+    void configurationChanged(android.content.res.Configuration) -> configurationChanged
+    void windowFocusChanged(boolean) -> windowFocusChanged
+    boolean loadLibrary(java.lang.String) -> loadLibrary
+    void addPhoneCallListener() -> addPhoneCallListener
+    void initJni(android.content.Context) -> initJni
+    boolean nativeRender() -> nativeRender
+    void nativeSetInputArea(int,int,int,int) -> nativeSetInputArea
+    void nativeSetKeyboardIsVisible(boolean) -> nativeSetKeyboardIsVisible
+    void nativeSetInputString(java.lang.String) -> nativeSetInputString
+    void nativeSetInputSelection(int,int) -> nativeSetInputSelection
+    void nativeSoftInputCanceled() -> nativeSoftInputCanceled
+    void nativeSoftInputLostFocus() -> nativeSoftInputLostFocus
+    void nativeReportKeyboardConfigChanged() -> nativeReportKeyboardConfigChanged
+    boolean nativePause() -> nativePause
+    void nativeResume() -> nativeResume
+    void nativeLowMemory() -> nativeLowMemory
+    void nativeApplicationUnload() -> nativeApplicationUnload
+    void nativeFocusChanged(boolean) -> nativeFocusChanged
+    void nativeRecreateGfxState(int,android.view.Surface) -> nativeRecreateGfxState
+    void nativeSendSurfaceChangedEvent() -> nativeSendSurfaceChangedEvent
+    boolean nativeDone() -> nativeDone
+    void nativeSoftInputClosed() -> nativeSoftInputClosed
+    boolean nativeInjectEvent(android.view.InputEvent) -> nativeInjectEvent
+    boolean nativeIsAutorotationOn() -> nativeIsAutorotationOn
+    void nativeMuteMasterAudio(boolean) -> nativeMuteMasterAudio
+    void nativeRestartActivityIndicator() -> nativeRestartActivityIndicator
+    void nativeSetLaunchURL(java.lang.String) -> nativeSetLaunchURL
+    void nativeOrientationChanged(int,int) -> nativeOrientationChanged
+    java.lang.String logLoadLibMainError(java.lang.String,java.lang.String) -> logLoadLibMainError
+    void preloadJavaPlugins() -> preloadJavaPlugins
+    java.lang.String loadNative(java.lang.String) -> loadNative
+    void unloadNative() -> unloadNative
+    java.lang.String getUnityNativeLibraryPath(android.content.Context) -> getUnityNativeLibraryPath
+    void showSoftInput(java.lang.String,int,boolean,boolean,boolean,boolean,java.lang.String,int,boolean,boolean) -> showSoftInput
+    void hideSoftInput() -> hideSoftInput
+    void setSoftInputStr(java.lang.String) -> setSoftInputStr
+    void setCharacterLimit(int) -> setCharacterLimit
+    void setHideInputField(boolean) -> setHideInputField
+    void setSelection(int,int) -> setSelection
+    java.lang.String getKeyboardLayout() -> getKeyboardLayout
+    void reportSoftInputStr(java.lang.String,int,boolean) -> reportSoftInputStr
+    void reportSoftInputSelection(int,int) -> reportSoftInputSelection
+    void reportSoftInputArea(android.graphics.Rect) -> reportSoftInputArea
+    void reportSoftInputIsVisible(boolean) -> reportSoftInputIsVisible
+    void setClipboardText(java.lang.String) -> setClipboardText
+    java.lang.String getClipboardText() -> getClipboardText
+    java.lang.String getLaunchURL() -> getLaunchURL
+    boolean initializeGoogleAr() -> initializeGoogleAr
+    boolean showVideoPlayer(java.lang.String,int,int,int,boolean,int,int) -> showVideoPlayer
+    void pauseJavaAndCallUnloadCallback() -> pauseJavaAndCallUnloadCallback
+    boolean isUaaLUseCase() -> isUaaLUseCase
+    int getUaaLLaunchProcessType() -> getUaaLLaunchProcessType
+    java.lang.String getProcessName() -> getProcessName
+    android.content.pm.ApplicationInfo getApplicationInfo() -> getApplicationInfo
+    boolean getSplashEnabled() -> getSplashEnabled
+    boolean getARCoreEnabled() -> getARCoreEnabled
+    boolean getLaunchFullscreen() -> getLaunchFullscreen
+    int getSplashMode() -> getSplashMode
+    boolean getAutoReportFullyDrawnEnabled() -> getAutoReportFullyDrawnEnabled
+    void executeGLThreadJobs() -> executeGLThreadJobs
+    void disableLogger() -> disableLogger
+    void queueGLThreadEvent(java.lang.Runnable) -> queueGLThreadEvent
+    void queueGLThreadEvent(com.unity3d.player.UnityPlayer$f) -> queueGLThreadEvent
+    boolean isFinishing() -> isFinishing
+    void hideStatusBar() -> hideStatusBar
+    boolean injectEvent(android.view.InputEvent) -> injectEvent
+    boolean onKeyUp(int,android.view.KeyEvent) -> onKeyUp
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean onKeyMultiple(int,int,android.view.KeyEvent) -> onKeyMultiple
+    boolean onKeyLongPress(int,android.view.KeyEvent) -> onKeyLongPress
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    boolean onGenericMotionEvent(android.view.MotionEvent) -> onGenericMotionEvent
+    void swapViews(android.view.View,android.view.View) -> swapViews
+    boolean addViewToPlayer(android.view.View,boolean) -> addViewToPlayer
+    void removeViewFromPlayer(android.view.View) -> removeViewFromPlayer
+    void reportError(java.lang.String,java.lang.String) -> reportError
+    java.lang.String getNetworkProxySettings(java.lang.String) -> getNetworkProxySettings
+    boolean startOrientationListener(int) -> startOrientationListener
+    boolean stopOrientationListener() -> stopOrientationListener
+    void access$000(com.unity3d.player.UnityPlayer,boolean) -> access$000
+    boolean access$100(com.unity3d.player.UnityPlayer) -> access$100
+    void access$200(com.unity3d.player.UnityPlayer) -> access$200
+    android.app.Activity access$300(com.unity3d.player.UnityPlayer) -> access$300
+    boolean access$400(com.unity3d.player.UnityPlayer) -> access$400
+    boolean access$500(com.unity3d.player.UnityPlayer) -> access$500
+    void access$600(com.unity3d.player.UnityPlayer) -> access$600
+    void access$700(com.unity3d.player.UnityPlayer,java.lang.String) -> access$700
+    void access$800(com.unity3d.player.UnityPlayer,int,int) -> access$800
+    void access$1000(com.unity3d.player.UnityPlayer,boolean) -> access$1000
+    com.unity3d.player.j access$1200(com.unity3d.player.UnityPlayer) -> access$1200
+    com.unity3d.player.j access$1202(com.unity3d.player.UnityPlayer,com.unity3d.player.j) -> access$1202
+    void access$1300(com.unity3d.player.UnityPlayer,int,android.view.Surface) -> access$1300
+    com.unity3d.player.h access$1400(com.unity3d.player.UnityPlayer) -> access$1400
+    void access$1500(com.unity3d.player.UnityPlayer) -> access$1500
+    android.view.SurfaceView access$1600(com.unity3d.player.UnityPlayer) -> access$1600
+    void access$1700(com.unity3d.player.UnityPlayer) -> access$1700
+    void access$1800(com.unity3d.player.UnityPlayer,int,android.view.Surface) -> access$1800
+    boolean access$1900(com.unity3d.player.UnityPlayer) -> access$1900
+    void access$2000(com.unity3d.player.UnityPlayer) -> access$2000
+    boolean access$2100(com.unity3d.player.UnityPlayer) -> access$2100
+    boolean access$2202(com.unity3d.player.UnityPlayer,boolean) -> access$2202
+    void access$2300(com.unity3d.player.UnityPlayer) -> access$2300
+    void access$2400(com.unity3d.player.UnityPlayer) -> access$2400
+    android.content.Context access$2500(com.unity3d.player.UnityPlayer) -> access$2500
+    void access$2600(com.unity3d.player.UnityPlayer) -> access$2600
+    void access$2700(com.unity3d.player.UnityPlayer) -> access$2700
+    void access$2900(com.unity3d.player.UnityPlayer) -> access$2900
+    void access$3000(com.unity3d.player.UnityPlayer,java.lang.String) -> access$3000
+    void access$3100(com.unity3d.player.UnityPlayer) -> access$3100
+    void access$3200(com.unity3d.player.UnityPlayer,int,int) -> access$3200
+    void access$3300(com.unity3d.player.UnityPlayer,int,int,int,int) -> access$3300
+    void access$3400(com.unity3d.player.UnityPlayer,boolean) -> access$3400
+    com.unity3d.player.o access$3502(com.unity3d.player.UnityPlayer,com.unity3d.player.o) -> access$3502
+    boolean access$3600(com.unity3d.player.UnityPlayer) -> access$3600
+    int access$3700(com.unity3d.player.UnityPlayer) -> access$3700
+    com.unity3d.player.IUnityPlayerLifecycleEvents access$3800(com.unity3d.player.UnityPlayer) -> access$3800
+    int access$3900(com.unity3d.player.UnityPlayer) -> access$3900
+    void <clinit>() -> <clinit>
+com.unity3d.player.UnityPlayer$1 -> com.unity3d.player.UnityPlayer$1:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.unity3d.player.UnityPlayer$10 -> com.unity3d.player.UnityPlayer$10:
+    boolean a -> a
+    java.lang.String b -> b
+    int c -> c
+    com.unity3d.player.UnityPlayer d -> d
+    void <init>(com.unity3d.player.UnityPlayer,boolean,java.lang.String,int) -> <init>
+    void a() -> a
+com.unity3d.player.UnityPlayer$11 -> com.unity3d.player.UnityPlayer$11:
+    int a -> a
+    int b -> b
+    com.unity3d.player.UnityPlayer c -> c
+    void <init>(com.unity3d.player.UnityPlayer,int,int) -> <init>
+    void a() -> a
+com.unity3d.player.UnityPlayer$12 -> com.unity3d.player.UnityPlayer$12:
+    android.graphics.Rect a -> a
+    com.unity3d.player.UnityPlayer b -> b
+    void <init>(com.unity3d.player.UnityPlayer,android.graphics.Rect) -> <init>
+    void a() -> a
+com.unity3d.player.UnityPlayer$13 -> com.unity3d.player.UnityPlayer$13:
+    boolean a -> a
+    com.unity3d.player.UnityPlayer b -> b
+    void <init>(com.unity3d.player.UnityPlayer,boolean) -> <init>
+    void a() -> a
+com.unity3d.player.UnityPlayer$14 -> com.unity3d.player.UnityPlayer$14:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void a() -> a
+com.unity3d.player.UnityPlayer$15 -> com.unity3d.player.UnityPlayer$15:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$16 -> com.unity3d.player.UnityPlayer$16:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$17 -> com.unity3d.player.UnityPlayer$17:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer,android.content.Context,int) -> <init>
+    void onOrientationChanged(int) -> onOrientationChanged
+com.unity3d.player.UnityPlayer$18 -> com.unity3d.player.UnityPlayer$18:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$19 -> com.unity3d.player.UnityPlayer$19:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void surfaceCreated(android.view.SurfaceHolder) -> surfaceCreated
+    void surfaceChanged(android.view.SurfaceHolder,int,int,int) -> surfaceChanged
+    void surfaceDestroyed(android.view.SurfaceHolder) -> surfaceDestroyed
+com.unity3d.player.UnityPlayer$2 -> com.unity3d.player.UnityPlayer$2:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$20 -> com.unity3d.player.UnityPlayer$20:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$21 -> com.unity3d.player.UnityPlayer$21:
+    int a -> a
+    android.view.Surface b -> b
+    java.util.concurrent.Semaphore c -> c
+    com.unity3d.player.UnityPlayer d -> d
+    void <init>(com.unity3d.player.UnityPlayer,int,android.view.Surface,java.util.concurrent.Semaphore) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$22 -> com.unity3d.player.UnityPlayer$22:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$23 -> com.unity3d.player.UnityPlayer$23:
+    java.util.concurrent.Semaphore a -> a
+    com.unity3d.player.UnityPlayer b -> b
+    void <init>(com.unity3d.player.UnityPlayer,java.util.concurrent.Semaphore) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$24 -> com.unity3d.player.UnityPlayer$24:
+    java.util.concurrent.Semaphore a -> a
+    com.unity3d.player.UnityPlayer b -> b
+    void <init>(com.unity3d.player.UnityPlayer,java.util.concurrent.Semaphore) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$3 -> com.unity3d.player.UnityPlayer$3:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$3$1 -> com.unity3d.player.UnityPlayer$3$1:
+    com.unity3d.player.UnityPlayer$3 a -> a
+    void <init>(com.unity3d.player.UnityPlayer$3) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$4 -> com.unity3d.player.UnityPlayer$4:
+    com.unity3d.player.UnityPlayer a -> a
+    java.lang.String b -> b
+    int c -> c
+    boolean d -> d
+    boolean e -> e
+    boolean f -> f
+    boolean g -> g
+    java.lang.String h -> h
+    int i -> i
+    boolean j -> j
+    boolean k -> k
+    com.unity3d.player.UnityPlayer l -> l
+    void <init>(com.unity3d.player.UnityPlayer,com.unity3d.player.UnityPlayer,java.lang.String,int,boolean,boolean,boolean,boolean,java.lang.String,int,boolean,boolean) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$4$1 -> com.unity3d.player.UnityPlayer$4$1:
+    com.unity3d.player.UnityPlayer$4 a -> a
+    void <init>(com.unity3d.player.UnityPlayer$4) -> <init>
+    void onCancel(android.content.DialogInterface) -> onCancel
+com.unity3d.player.UnityPlayer$5 -> com.unity3d.player.UnityPlayer$5:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$6 -> com.unity3d.player.UnityPlayer$6:
+    java.lang.String a -> a
+    com.unity3d.player.UnityPlayer b -> b
+    void <init>(com.unity3d.player.UnityPlayer,java.lang.String) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$7 -> com.unity3d.player.UnityPlayer$7:
+    int a -> a
+    com.unity3d.player.UnityPlayer b -> b
+    void <init>(com.unity3d.player.UnityPlayer,int) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$8 -> com.unity3d.player.UnityPlayer$8:
+    boolean a -> a
+    com.unity3d.player.UnityPlayer b -> b
+    void <init>(com.unity3d.player.UnityPlayer,boolean) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$9 -> com.unity3d.player.UnityPlayer$9:
+    int a -> a
+    int b -> b
+    com.unity3d.player.UnityPlayer c -> c
+    void <init>(com.unity3d.player.UnityPlayer,int,int) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$a -> com.unity3d.player.UnityPlayer$a:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void onAccuracyChanged(android.hardware.Sensor,int) -> onAccuracyChanged
+    void onSensorChanged(android.hardware.SensorEvent) -> onSensorChanged
+com.unity3d.player.UnityPlayer$b -> com.unity3d.player.UnityPlayer$b:
+    int a -> a
+    int b -> b
+    int c -> c
+    int[] d -> d
+    void <clinit>() -> <clinit>
+com.unity3d.player.UnityPlayer$c -> com.unity3d.player.UnityPlayer$c:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void onCallStateChanged(int,java.lang.String) -> onCallStateChanged
+    void <init>(com.unity3d.player.UnityPlayer,byte) -> <init>
+com.unity3d.player.UnityPlayer$d -> com.unity3d.player.UnityPlayer$d:
+    com.unity3d.player.UnityPlayer$d a -> a
+    com.unity3d.player.UnityPlayer$d b -> b
+    com.unity3d.player.UnityPlayer$d c -> c
+    com.unity3d.player.UnityPlayer$d d -> d
+    com.unity3d.player.UnityPlayer$d e -> e
+    com.unity3d.player.UnityPlayer$d f -> f
+    com.unity3d.player.UnityPlayer$d g -> g
+    com.unity3d.player.UnityPlayer$d h -> h
+    com.unity3d.player.UnityPlayer$d i -> i
+    com.unity3d.player.UnityPlayer$d j -> j
+    com.unity3d.player.UnityPlayer$d[] k -> k
+    void <init>(java.lang.String,int) -> <init>
+    void <clinit>() -> <clinit>
+com.unity3d.player.UnityPlayer$e -> com.unity3d.player.UnityPlayer$e:
+    android.os.Handler a -> a
+    boolean b -> b
+    boolean c -> c
+    int d -> d
+    int e -> e
+    int f -> f
+    int g -> g
+    int h -> h
+    com.unity3d.player.UnityPlayer i -> i
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void run() -> run
+    void a() -> a
+    void b() -> b
+    void a(java.lang.Runnable) -> a
+    void c() -> c
+    void d() -> d
+    void b(java.lang.Runnable) -> b
+    void c(java.lang.Runnable) -> c
+    void d(java.lang.Runnable) -> d
+    void e() -> e
+    void a(com.unity3d.player.UnityPlayer$d) -> a
+    void a(int,int) -> a
+    void <init>(com.unity3d.player.UnityPlayer,byte) -> <init>
+com.unity3d.player.UnityPlayer$e$1 -> com.unity3d.player.UnityPlayer$e$1:
+    com.unity3d.player.UnityPlayer$e a -> a
+    void <init>(com.unity3d.player.UnityPlayer$e) -> <init>
+    void a() -> a
+    boolean handleMessage(android.os.Message) -> handleMessage
+com.unity3d.player.UnityPlayer$f -> com.unity3d.player.UnityPlayer$f:
+    com.unity3d.player.UnityPlayer e -> e
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void run() -> run
+    void a() -> a
+    void <init>(com.unity3d.player.UnityPlayer,byte) -> <init>
+com.unity3d.player.UnityPlayerActivity -> com.unity3d.player.UnityPlayerActivity:
+    com.unity3d.player.UnityPlayer mUnityPlayer -> mUnityPlayer
+    void <init>() -> <init>
+    java.lang.String updateUnityCommandLineArguments(java.lang.String) -> updateUnityCommandLineArguments
+    void onCreate(android.os.Bundle) -> onCreate
+    void onUnityPlayerUnloaded() -> onUnityPlayerUnloaded
+    void onUnityPlayerQuitted() -> onUnityPlayerQuitted
+    void onNewIntent(android.content.Intent) -> onNewIntent
+    void onDestroy() -> onDestroy
+    void onStop() -> onStop
+    void onStart() -> onStart
+    void onPause() -> onPause
+    void onResume() -> onResume
+    void onLowMemory() -> onLowMemory
+    void onTrimMemory(int) -> onTrimMemory
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    void onWindowFocusChanged(boolean) -> onWindowFocusChanged
+    boolean dispatchKeyEvent(android.view.KeyEvent) -> dispatchKeyEvent
+    boolean onKeyUp(int,android.view.KeyEvent) -> onKeyUp
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    boolean onGenericMotionEvent(android.view.MotionEvent) -> onGenericMotionEvent
+com.unity3d.player.a -> com.unity3d.player.a:
+    com.unity3d.player.a a -> a
+    com.google.android.play.core.assetpacks.AssetPackManager b -> b
+    java.util.HashSet c -> c
+    java.lang.Object d -> d
+    void <init>(android.content.Context) -> <init>
+    com.unity3d.player.d a(android.content.Context) -> a
+    void a(java.lang.String[],com.unity3d.player.IAssetPackManagerStatusQueryCallback) -> a
+    void a(java.lang.String[],com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> a
+    void a(java.lang.String,com.unity3d.player.IAssetPackManagerDownloadStatusCallback,android.os.Looper) -> a
+    java.lang.Object a(com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> a
+    void a(java.lang.Object) -> a
+    void a(android.app.Activity,com.unity3d.player.IAssetPackManagerMobileDataConfirmationCallback) -> a
+    java.lang.String a(java.lang.String) -> a
+    void a(java.lang.String[]) -> a
+    void b(java.lang.String) -> b
+    com.unity3d.player.a a() -> a
+    void a(com.unity3d.player.a,java.lang.String,com.unity3d.player.IAssetPackManagerDownloadStatusCallback,android.os.Looper) -> a
+    java.util.HashSet a(com.unity3d.player.a) -> a
+    java.lang.Object b(com.unity3d.player.a) -> b
+    java.lang.Object c(com.unity3d.player.a) -> c
+com.unity3d.player.a$a -> com.unity3d.player.a$a:
+    java.util.Set a -> a
+    java.lang.String b -> b
+    int c -> c
+    long d -> d
+    long e -> e
+    int f -> f
+    int g -> g
+    void <init>(java.util.Set,java.lang.String,int,long,long,int,int) -> <init>
+    void run() -> run
+com.unity3d.player.a$b -> com.unity3d.player.a$b:
+    java.util.HashSet b -> b
+    android.os.Looper c -> c
+    com.unity3d.player.a a -> a
+    void <init>(com.unity3d.player.a,com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> <init>
+    void <init>(com.unity3d.player.a,com.unity3d.player.IAssetPackManagerDownloadStatusCallback,android.os.Looper) -> <init>
+    void a(com.google.android.play.core.assetpacks.AssetPackState) -> a
+    void a(com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> a
+    java.util.Set a(java.util.HashSet) -> a
+    void onStateUpdate(java.lang.Object) -> onStateUpdate
+com.unity3d.player.a$c -> com.unity3d.player.a$c:
+    com.unity3d.player.IAssetPackManagerMobileDataConfirmationCallback a -> a
+    android.os.Looper b -> b
+    void <init>(com.unity3d.player.IAssetPackManagerMobileDataConfirmationCallback) -> <init>
+    void a(java.lang.Integer) -> a
+    void onSuccess(java.lang.Object) -> onSuccess
+com.unity3d.player.a$c$a -> com.unity3d.player.a$c$a:
+    com.unity3d.player.IAssetPackManagerMobileDataConfirmationCallback a -> a
+    boolean b -> b
+    void <init>(com.unity3d.player.IAssetPackManagerMobileDataConfirmationCallback,boolean) -> <init>
+    void run() -> run
+com.unity3d.player.a$d -> com.unity3d.player.a$d:
+    com.unity3d.player.IAssetPackManagerDownloadStatusCallback a -> a
+    android.os.Looper b -> b
+    java.lang.String c -> c
+    void <init>(com.unity3d.player.IAssetPackManagerDownloadStatusCallback,java.lang.String) -> <init>
+    void onComplete(com.google.android.play.core.tasks.Task) -> onComplete
+    void a(java.lang.String,int,int,long) -> a
+com.unity3d.player.a$e -> com.unity3d.player.a$e:
+    com.unity3d.player.IAssetPackManagerStatusQueryCallback a -> a
+    android.os.Looper b -> b
+    java.lang.String[] c -> c
+    void <init>(com.unity3d.player.IAssetPackManagerStatusQueryCallback,java.lang.String[]) -> <init>
+    void onComplete(com.google.android.play.core.tasks.Task) -> onComplete
+com.unity3d.player.a$e$a -> com.unity3d.player.a$e$a:
+    com.unity3d.player.IAssetPackManagerStatusQueryCallback a -> a
+    long b -> b
+    java.lang.String[] c -> c
+    int[] d -> d
+    int[] e -> e
+    void <init>(com.unity3d.player.IAssetPackManagerStatusQueryCallback,long,java.lang.String[],int[],int[]) -> <init>
+    void run() -> run
+com.unity3d.player.b -> com.unity3d.player.b:
+    android.content.Context a -> a
+    android.media.AudioManager b -> b
+    com.unity3d.player.b$a c -> c
+    void <init>(android.content.Context) -> <init>
+    void a(com.unity3d.player.b$b) -> a
+    void a() -> a
+com.unity3d.player.b$a -> com.unity3d.player.b$a:
+    com.unity3d.player.b$b b -> b
+    android.media.AudioManager c -> c
+    int d -> d
+    int e -> e
+    com.unity3d.player.b a -> a
+    void <init>(com.unity3d.player.b,android.os.Handler,android.media.AudioManager,int,com.unity3d.player.b$b) -> <init>
+    void onChange(boolean,android.net.Uri) -> onChange
+    boolean deliverSelfNotifications() -> deliverSelfNotifications
+com.unity3d.player.b$b -> com.unity3d.player.b$b:
+    void onAudioVolumeChanged(int) -> onAudioVolumeChanged
+com.unity3d.player.c -> com.unity3d.player.c:
+    com.unity3d.player.e a -> a
+    android.hardware.camera2.CameraManager b -> b
+    java.lang.String[] c -> c
+    android.hardware.camera2.CameraDevice d -> d
+    java.util.concurrent.Semaphore e -> e
+    android.os.HandlerThread f -> f
+    android.os.Handler g -> g
+    android.graphics.Rect h -> h
+    android.graphics.Rect i -> i
+    int j -> j
+    int k -> k
+    float l -> l
+    float m -> m
+    int n -> n
+    int o -> o
+    boolean p -> p
+    android.util.Range q -> q
+    android.media.ImageReader r -> r
+    android.media.Image s -> s
+    android.hardware.camera2.CaptureRequest$Builder t -> t
+    android.hardware.camera2.CameraCaptureSession u -> u
+    java.lang.Object v -> v
+    int w -> w
+    android.graphics.SurfaceTexture x -> x
+    android.view.Surface y -> y
+    int z -> z
+    android.hardware.camera2.CameraCaptureSession$CaptureCallback A -> A
+    android.hardware.camera2.CameraDevice$StateCallback B -> B
+    android.media.ImageReader$OnImageAvailableListener C -> C
+    android.graphics.SurfaceTexture$OnFrameAvailableListener D -> D
+    void <init>(com.unity3d.player.e) -> <init>
+    android.hardware.camera2.CameraManager b(android.content.Context) -> b
+    java.lang.String[] c(android.content.Context) -> c
+    int a(android.content.Context) -> a
+    int a(android.content.Context,int) -> a
+    boolean b(android.content.Context,int) -> b
+    boolean c(android.content.Context,int) -> c
+    int d(android.content.Context,int) -> d
+    android.util.Size[] a(android.hardware.camera2.CameraCharacteristics) -> a
+    int[] e(android.content.Context,int) -> e
+    void g() -> g
+    void h() -> h
+    boolean a(android.content.Context,int,int,int,int,int) -> a
+    void b(android.hardware.camera2.CameraCharacteristics) -> b
+    boolean a(float,float) -> a
+    android.graphics.Rect a() -> a
+    void b() -> b
+    void i() -> i
+    void a(java.lang.Object) -> a
+    void j() -> j
+    void k() -> k
+    void c() -> c
+    void d() -> d
+    void e() -> e
+    void a(android.hardware.camera2.CameraDevice) -> a
+    android.graphics.Rect a(android.util.Size[],double,double) -> a
+    int a(android.util.Range[],int) -> a
+    void a(com.unity3d.player.c,java.lang.Object) -> a
+    android.hardware.camera2.CameraDevice a(com.unity3d.player.c) -> a
+    java.lang.Object b(com.unity3d.player.c) -> b
+    android.hardware.camera2.CameraCaptureSession a(com.unity3d.player.c,android.hardware.camera2.CameraCaptureSession) -> a
+    android.hardware.camera2.CaptureRequest$Builder a(com.unity3d.player.c,android.hardware.camera2.CaptureRequest$Builder) -> a
+    android.view.Surface c(com.unity3d.player.c) -> c
+    android.hardware.camera2.CaptureRequest$Builder d(com.unity3d.player.c) -> d
+    android.media.ImageReader e(com.unity3d.player.c) -> e
+    android.util.Range f(com.unity3d.player.c) -> f
+    void g(com.unity3d.player.c) -> g
+    android.hardware.camera2.CameraDevice a(com.unity3d.player.c,android.hardware.camera2.CameraDevice) -> a
+    java.util.concurrent.Semaphore f() -> f
+    void b(com.unity3d.player.c,android.hardware.camera2.CameraDevice) -> b
+    com.unity3d.player.e h(com.unity3d.player.c) -> h
+    android.media.Image i(com.unity3d.player.c) -> i
+    android.media.Image a(com.unity3d.player.c,android.media.Image) -> a
+    void <clinit>() -> <clinit>
+com.unity3d.player.c$1 -> com.unity3d.player.c$1:
+    com.unity3d.player.c a -> a
+    void <init>(com.unity3d.player.c) -> <init>
+    void onCaptureCompleted(android.hardware.camera2.CameraCaptureSession,android.hardware.camera2.CaptureRequest,android.hardware.camera2.TotalCaptureResult) -> onCaptureCompleted
+    void onCaptureFailed(android.hardware.camera2.CameraCaptureSession,android.hardware.camera2.CaptureRequest,android.hardware.camera2.CaptureFailure) -> onCaptureFailed
+    void onCaptureSequenceCompleted(android.hardware.camera2.CameraCaptureSession,int,long) -> onCaptureSequenceCompleted
+    void onCaptureSequenceAborted(android.hardware.camera2.CameraCaptureSession,int) -> onCaptureSequenceAborted
+com.unity3d.player.c$2 -> com.unity3d.player.c$2:
+    com.unity3d.player.c a -> a
+    void <init>(com.unity3d.player.c) -> <init>
+    void onConfigured(android.hardware.camera2.CameraCaptureSession) -> onConfigured
+    void onConfigureFailed(android.hardware.camera2.CameraCaptureSession) -> onConfigureFailed
+com.unity3d.player.c$3 -> com.unity3d.player.c$3:
+    com.unity3d.player.c a -> a
+    void <init>(com.unity3d.player.c) -> <init>
+    void onOpened(android.hardware.camera2.CameraDevice) -> onOpened
+    void onClosed(android.hardware.camera2.CameraDevice) -> onClosed
+    void onDisconnected(android.hardware.camera2.CameraDevice) -> onDisconnected
+    void onError(android.hardware.camera2.CameraDevice,int) -> onError
+com.unity3d.player.c$4 -> com.unity3d.player.c$4:
+    com.unity3d.player.c a -> a
+    void <init>(com.unity3d.player.c) -> <init>
+    void onImageAvailable(android.media.ImageReader) -> onImageAvailable
+com.unity3d.player.c$5 -> com.unity3d.player.c$5:
+    com.unity3d.player.c a -> a
+    void <init>(com.unity3d.player.c) -> <init>
+    void onFrameAvailable(android.graphics.SurfaceTexture) -> onFrameAvailable
+com.unity3d.player.c$a -> com.unity3d.player.c$a:
+    int a -> a
+    int b -> b
+    int c -> c
+    int[] d -> d
+    void <clinit>() -> <clinit>
+com.unity3d.player.d -> com.unity3d.player.d:
+    void a(java.lang.String[],com.unity3d.player.IAssetPackManagerStatusQueryCallback) -> a
+    void a(java.lang.String[],com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> a
+    java.lang.Object a(com.unity3d.player.IAssetPackManagerDownloadStatusCallback) -> a
+    void a(java.lang.Object) -> a
+    void a(android.app.Activity,com.unity3d.player.IAssetPackManagerMobileDataConfirmationCallback) -> a
+    java.lang.String a(java.lang.String) -> a
+    void a(java.lang.String[]) -> a
+    void b(java.lang.String) -> b
+com.unity3d.player.e -> com.unity3d.player.e:
+    void a(java.lang.Object,java.lang.Object,java.lang.Object,int,int,int) -> a
+    void a(java.lang.Object) -> a
+com.unity3d.player.f -> com.unity3d.player.f:
+    boolean a -> a
+    void Log(int,java.lang.String) -> Log
+    void <clinit>() -> <clinit>
+com.unity3d.player.g -> com.unity3d.player.g:
+    com.unity3d.player.IPermissionRequestCallbacks a -> a
+    android.app.Activity b -> b
+    android.os.Looper c -> c
+    void <init>() -> <init>
+    void <init>(android.app.Activity,com.unity3d.player.IPermissionRequestCallbacks) -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+    void onRequestPermissionsResult(int,java.lang.String[],int[]) -> onRequestPermissionsResult
+    void a(java.lang.String[]) -> a
+    void a(com.unity3d.player.g,java.lang.String[]) -> a
+com.unity3d.player.g$1 -> com.unity3d.player.g$1:
+    java.lang.String[] a -> a
+    com.unity3d.player.g b -> b
+    void <init>(com.unity3d.player.g,java.lang.String[]) -> <init>
+    void run() -> run
+com.unity3d.player.g$a -> com.unity3d.player.g$a:
+    com.unity3d.player.IPermissionRequestCallbacks b -> b
+    java.lang.String c -> c
+    int d -> d
+    boolean e -> e
+    com.unity3d.player.g a -> a
+    void <init>(com.unity3d.player.g,com.unity3d.player.IPermissionRequestCallbacks,java.lang.String,int,boolean) -> <init>
+    void run() -> run
+com.unity3d.player.h -> com.unity3d.player.h:
+    java.lang.ref.WeakReference a -> a
+    android.app.Activity b -> b
+    com.unity3d.player.h$a c -> c
+    void <init>(android.content.Context) -> <init>
+    void a() -> a
+    void a(android.view.SurfaceView) -> a
+    void b() -> b
+    void a(android.view.ViewGroup) -> a
+    void b(android.view.ViewGroup) -> b
+    void onActivityResumed(android.app.Activity) -> onActivityResumed
+    void onActivityCreated(android.app.Activity,android.os.Bundle) -> onActivityCreated
+    void onActivityDestroyed(android.app.Activity) -> onActivityDestroyed
+    void onActivityPaused(android.app.Activity) -> onActivityPaused
+    void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle) -> onActivitySaveInstanceState
+    void onActivityStarted(android.app.Activity) -> onActivityStarted
+    void onActivityStopped(android.app.Activity) -> onActivityStopped
+com.unity3d.player.h$a -> com.unity3d.player.h$a:
+    android.graphics.Bitmap a -> a
+    com.unity3d.player.h b -> b
+    void <init>(com.unity3d.player.h,android.content.Context) -> <init>
+    void onPixelCopyFinished(int) -> onPixelCopyFinished
+    void a(android.view.SurfaceView) -> a
+com.unity3d.player.i -> com.unity3d.player.i:
+    android.content.Context b -> b
+    com.unity3d.player.UnityPlayer c -> c
+    int d -> d
+    int e -> e
+    int f -> f
+    boolean g -> g
+    boolean a -> a
+    void <init>(android.content.Context,com.unity3d.player.UnityPlayer,java.lang.String,int,boolean,boolean,boolean,java.lang.String,int,boolean,boolean) -> <init>
+    void a(boolean) -> a
+    void a(android.widget.EditText,java.lang.String,int,boolean,boolean,boolean,java.lang.String,int) -> a
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    int a(int,boolean,boolean,boolean) -> a
+    void a(java.lang.String,boolean) -> a
+    void onClick(android.view.View) -> onClick
+    void onBackPressed() -> onBackPressed
+    boolean dispatchTouchEvent(android.view.MotionEvent) -> dispatchTouchEvent
+    android.view.View createSoftInputView() -> createSoftInputView
+    java.lang.String b() -> b
+    void a(java.lang.String) -> a
+    void a(int) -> a
+    void a(int,int) -> a
+    java.lang.String a() -> a
+    com.unity3d.player.UnityPlayer a(com.unity3d.player.i) -> a
+    java.lang.String b(com.unity3d.player.i) -> b
+    void a(com.unity3d.player.i,java.lang.String,boolean) -> a
+    android.content.Context c(com.unity3d.player.i) -> c
+    void <clinit>() -> <clinit>
+com.unity3d.player.i$1 -> com.unity3d.player.i$1:
+    android.view.View a -> a
+    com.unity3d.player.i b -> b
+    void <init>(com.unity3d.player.i,android.view.View) -> <init>
+    void onGlobalLayout() -> onGlobalLayout
+com.unity3d.player.i$2 -> com.unity3d.player.i$2:
+    com.unity3d.player.i a -> a
+    void <init>(com.unity3d.player.i) -> <init>
+    void onFocusChange(android.view.View,boolean) -> onFocusChange
+com.unity3d.player.i$3 -> com.unity3d.player.i$3:
+    com.unity3d.player.i a -> a
+    void <init>(com.unity3d.player.i,android.content.Context) -> <init>
+    boolean onKeyPreIme(int,android.view.KeyEvent) -> onKeyPreIme
+    void onWindowFocusChanged(boolean) -> onWindowFocusChanged
+    void onSelectionChanged(int,int) -> onSelectionChanged
+com.unity3d.player.i$4 -> com.unity3d.player.i$4:
+    com.unity3d.player.i a -> a
+    void <init>(com.unity3d.player.i) -> <init>
+    boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
+com.unity3d.player.i$a -> com.unity3d.player.i$a:
+    int a -> a
+    int b -> b
+    int c -> c
+    int a() -> a
+    int b() -> b
+    int c() -> c
+    void <clinit>() -> <clinit>
+com.unity3d.player.j -> com.unity3d.player.j:
+    int a -> a
+    int b -> b
+    android.graphics.Bitmap c -> c
+    android.graphics.Bitmap d -> d
+    void <init>(android.content.Context,int) -> <init>
+    void onLayout(boolean,int,int,int,int) -> onLayout
+    void onDetachedFromWindow() -> onDetachedFromWindow
+com.unity3d.player.j$1 -> com.unity3d.player.j$1:
+    int[] a -> a
+    void <clinit>() -> <clinit>
+com.unity3d.player.j$a -> com.unity3d.player.j$a:
+    int a -> a
+    int b -> b
+    int c -> c
+    int[] d -> d
+    int[] a() -> a
+    void <clinit>() -> <clinit>
+com.unity3d.player.k -> com.unity3d.player.k:
+    android.content.Context a -> a
+    com.unity3d.player.k$b b -> b
+    void <init>(android.content.Context) -> <init>
+    void a(com.unity3d.player.k$a,java.lang.String) -> a
+    void a() -> a
+com.unity3d.player.k$a -> com.unity3d.player.k$a:
+    void b() -> b
+com.unity3d.player.k$b -> com.unity3d.player.k$b:
+    com.unity3d.player.k$a b -> b
+    com.unity3d.player.k a -> a
+    void <init>(com.unity3d.player.k,android.os.Handler,com.unity3d.player.k$a) -> <init>
+    void onChange(boolean) -> onChange
+    boolean deliverSelfNotifications() -> deliverSelfNotifications
+com.unity3d.player.l -> com.unity3d.player.l:
+    java.lang.Thread$UncaughtExceptionHandler a -> a
+    void <init>() -> <init>
+    boolean a() -> a
+    void uncaughtException(java.lang.Thread,java.lang.Throwable) -> uncaughtException
+com.unity3d.player.m -> com.unity3d.player.m:
+    boolean a -> a
+    boolean b -> b
+    boolean c -> c
+    boolean d -> d
+    boolean e -> e
+    void <init>() -> <init>
+    void a() -> a
+    void b() -> b
+    boolean c() -> c
+    void a(boolean) -> a
+    void b(boolean) -> b
+    boolean d() -> d
+    void c(boolean) -> c
+    boolean e() -> e
+    void d(boolean) -> d
+    boolean e(boolean) -> e
+    boolean f() -> f
+    java.lang.String toString() -> toString
+    void <clinit>() -> <clinit>
+com.unity3d.player.n -> com.unity3d.player.n:
+    boolean a -> a
+    android.content.Context b -> b
+    android.view.SurfaceView c -> c
+    android.view.SurfaceHolder d -> d
+    java.lang.String e -> e
+    int f -> f
+    int g -> g
+    boolean h -> h
+    long i -> i
+    long j -> j
+    android.widget.FrameLayout k -> k
+    android.view.Display l -> l
+    int m -> m
+    int n -> n
+    int o -> o
+    int p -> p
+    android.media.MediaPlayer q -> q
+    android.widget.MediaController r -> r
+    boolean s -> s
+    boolean t -> t
+    int u -> u
+    boolean v -> v
+    boolean w -> w
+    com.unity3d.player.n$a x -> x
+    com.unity3d.player.n$b y -> y
+    int z -> z
+    void b(java.lang.String) -> b
+    void <init>(android.content.Context,java.lang.String,int,int,int,boolean,long,long,com.unity3d.player.n$a) -> <init>
+    boolean a() -> a
+    void a(int) -> a
+    void destroyPlayer() -> destroyPlayer
+    void c() -> c
+    void cancelOnPrepare() -> cancelOnPrepare
+    boolean exitOnKeypress(int,android.view.KeyEvent) -> exitOnKeypress
+    boolean onKeyUp(int,android.view.KeyEvent) -> onKeyUp
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    void onBufferingUpdate(android.media.MediaPlayer,int) -> onBufferingUpdate
+    void onCompletion(android.media.MediaPlayer) -> onCompletion
+    void onVideoSizeChanged(android.media.MediaPlayer,int,int) -> onVideoSizeChanged
+    void onPrepared(android.media.MediaPlayer) -> onPrepared
+    void surfaceChanged(android.view.SurfaceHolder,int,int,int) -> surfaceChanged
+    void surfaceDestroyed(android.view.SurfaceHolder) -> surfaceDestroyed
+    void surfaceCreated(android.view.SurfaceHolder) -> surfaceCreated
+    void doCleanUp() -> doCleanUp
+    void d() -> d
+    void updateVideoLayout() -> updateVideoLayout
+    boolean canPause() -> canPause
+    boolean canSeekBackward() -> canSeekBackward
+    boolean canSeekForward() -> canSeekForward
+    int getBufferPercentage() -> getBufferPercentage
+    int getCurrentPosition() -> getCurrentPosition
+    int getDuration() -> getDuration
+    boolean isPlaying() -> isPlaying
+    void pause() -> pause
+    void seekTo(int) -> seekTo
+    void start() -> start
+    int getAudioSessionId() -> getAudioSessionId
+    boolean b() -> b
+    void a(java.lang.String) -> a
+    void <clinit>() -> <clinit>
+com.unity3d.player.n$a -> com.unity3d.player.n$a:
+    void a(int) -> a
+com.unity3d.player.n$b -> com.unity3d.player.n$b:
+    com.unity3d.player.n b -> b
+    boolean c -> c
+    com.unity3d.player.n a -> a
+    void <init>(com.unity3d.player.n,com.unity3d.player.n) -> <init>
+    void run() -> run
+    void a() -> a
+com.unity3d.player.o -> com.unity3d.player.o:
+    com.unity3d.player.UnityPlayer a -> a
+    android.content.Context b -> b
+    com.unity3d.player.o$a c -> c
+    java.util.concurrent.Semaphore d -> d
+    java.util.concurrent.locks.Lock e -> e
+    com.unity3d.player.n f -> f
+    int g -> g
+    boolean h -> h
+    boolean i -> i
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    boolean a(android.content.Context,java.lang.String,int,int,int,boolean,long,long,com.unity3d.player.o$a) -> a
+    void d() -> d
+    void a() -> a
+    void b() -> b
+    void c() -> c
+    void runOnUiThread(java.lang.Runnable) -> runOnUiThread
+    com.unity3d.player.n a(com.unity3d.player.o) -> a
+    int a(com.unity3d.player.o,int) -> a
+    java.util.concurrent.Semaphore b(com.unity3d.player.o) -> b
+    com.unity3d.player.n a(com.unity3d.player.o,com.unity3d.player.n) -> a
+    android.content.Context c(com.unity3d.player.o) -> c
+    java.util.concurrent.locks.Lock d(com.unity3d.player.o) -> d
+    boolean e(com.unity3d.player.o) -> e
+    void f(com.unity3d.player.o) -> f
+    com.unity3d.player.UnityPlayer g(com.unity3d.player.o) -> g
+    boolean h(com.unity3d.player.o) -> h
+com.unity3d.player.o$1 -> com.unity3d.player.o$1:
+    java.lang.String a -> a
+    int b -> b
+    int c -> c
+    int d -> d
+    boolean e -> e
+    long f -> f
+    long g -> g
+    com.unity3d.player.o h -> h
+    void <init>(com.unity3d.player.o,java.lang.String,int,int,int,boolean,long,long) -> <init>
+    void run() -> run
+com.unity3d.player.o$1$1 -> com.unity3d.player.o$1$1:
+    com.unity3d.player.o$1 a -> a
+    void <init>(com.unity3d.player.o$1) -> <init>
+    void a(int) -> a
+com.unity3d.player.o$1$1$1 -> com.unity3d.player.o$1$1$1:
+    com.unity3d.player.o$1$1 a -> a
+    void <init>(com.unity3d.player.o$1$1) -> <init>
+    void run() -> run
+com.unity3d.player.o$2 -> com.unity3d.player.o$2:
+    com.unity3d.player.o a -> a
+    void <init>(com.unity3d.player.o) -> <init>
+    void run() -> run
+com.unity3d.player.o$3 -> com.unity3d.player.o$3:
+    com.unity3d.player.o a -> a
+    void <init>(com.unity3d.player.o) -> <init>
+    void run() -> run
+com.unity3d.player.o$4 -> com.unity3d.player.o$4:
+    com.unity3d.player.o a -> a
+    void <init>(com.unity3d.player.o) -> <init>
+    void run() -> run
+com.unity3d.player.o$a -> com.unity3d.player.o$a:
+    void a() -> a
+org.fmod.FMODAudioDevice -> org.fmod.FMODAudioDevice:
+    java.lang.Thread a -> a
+    boolean b -> b
+    android.media.AudioTrack c -> c
+    boolean d -> d
+    java.nio.ByteBuffer e -> e
+    byte[] f -> f
+    org.fmod.a g -> g
+    int h -> h
+    int i -> i
+    int j -> j
+    int k -> k
+    int l -> l
+    void <init>() -> <init>
+    void start() -> start
+    void stop() -> stop
+    void close() -> close
+    boolean isRunning() -> isRunning
+    void run() -> run
+    void releaseAudioTrack() -> releaseAudioTrack
+    int fmodGetInfo(int) -> fmodGetInfo
+    int fmodProcess(java.nio.ByteBuffer) -> fmodProcess
+    int fmodProcessMicData(java.nio.ByteBuffer,int) -> fmodProcessMicData
+    int startAudioRecord(int,int,int) -> startAudioRecord
+    void stopAudioRecord() -> stopAudioRecord
+    void <clinit>() -> <clinit>
+org.fmod.a -> org.fmod.a:
+    org.fmod.FMODAudioDevice a -> a
+    java.nio.ByteBuffer b -> b
+    int c -> c
+    int d -> d
+    int e -> e
+    java.lang.Thread f -> f
+    boolean g -> g
+    android.media.AudioRecord h -> h
+    boolean i -> i
+    void <init>(org.fmod.FMODAudioDevice,int,int) -> <init>
+    int a() -> a
+    void b() -> b
+    void c() -> c
+    void run() -> run
+    void d() -> d
