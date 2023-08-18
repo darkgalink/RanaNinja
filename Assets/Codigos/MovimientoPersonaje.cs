@@ -8,11 +8,13 @@ public class MovimientoPersonaje : MonoBehaviour
     private int vida;
     public float velocidadMovimiento = 5f;
     public float fuerzaSalto = 7f;
+    
 
     public Vector3 posicionInicio { get; set; }
 
     private bool enElsuelo = false;
     private Rigidbody2D cuerpoRigido;
+    public Joystick joystick;
     private Animator animaciones;
     private AudioSource audioSalto;
 
@@ -31,7 +33,8 @@ public class MovimientoPersonaje : MonoBehaviour
 
     void Update()
     {
-        float movimientoHorizontal = Input.GetAxis("Horizontal");
+
+        float movimientoHorizontal = Input.GetAxis("Horizontal") + joystick.Horizontal;
         cuerpoRigido.velocity = new Vector2(movimientoHorizontal * velocidadMovimiento, cuerpoRigido.velocity.y);
 
         if (Input.GetButtonDown("Jump") && enElsuelo)
@@ -80,6 +83,19 @@ public class MovimientoPersonaje : MonoBehaviour
           
     }
 
+    // Nuevo método para el botón de salto
+    public void JumpButtonClicked()
+    {
+        if (enElsuelo)
+        {
+            audioSalto.Play();
+            cuerpoRigido.AddForce(new Vector2(0f, fuerzaSalto), ForceMode2D.Impulse);
+            enElsuelo = false;
+        }
+    }
+//------------------------------------------------------------
+
+//------------------------------------------------------------------------
     void Reinicio()
     {
         vida--;
